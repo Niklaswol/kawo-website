@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+// Set your brand colors
+$blue-zodiac-50: #ebf2ff;
+$blue-zodiac-100: #dae7ff;
+$blue-zodiac-200: #bcd1ff;
+$blue-zodiac-300: #93b1ff;
+$blue-zodiac-400: #6985ff;
+$blue-zodiac-500: #4659ff;
+$blue-zodiac-600: #262cff;
+$blue-zodiac-700: #1a1be8;
+$blue-zodiac-800: #191dba;
+$blue-zodiac-900: #1d2392;
+$blue-zodiac-950: #0c0d3b;
+$white: #fffff;
+
+$primary: $blue-zodiac-500;
+$text: hsl(0, 0%, 29%);
+$link: $white;
+
+// Import only what you need from Bulma
+@import "./node_modules/bulma/sass/utilities/_all.sass";
+@import "./node_modules/bulma/sass/base/_all.sass";
+@import "./node_modules/bulma/sass/elements/button.sass";
+@import "./node_modules/bulma/sass/elements/container.sass";
+@import "./node_modules/bulma/sass/elements/title.sass";
+@import "./node_modules/bulma/sass/form/_all.sass";
+@import "./node_modules/bulma/sass/components/navbar.sass";
+@import "./node_modules/bulma/sass/layout/hero.sass";
+@import "./node_modules/bulma/sass/layout/section.sass";

@@ -1,18 +1,20 @@
 <template>
   <div class="container">
-    <LocaleChanger/>
-    <p>{{ $t("main.hello") }}</p>
+<!--    <LocaleChanger/>-->
+    <NavbarMenu/>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import LocaleChanger from "@/components/LocaleChanger.vue";
+/*import LocaleChanger from "@/components/LocaleChanger.vue";*/
+import NavbarMenu from "@/components/NavbarMenu.vue";
 
 export default {
   name: 'App',
   components: {
-    LocaleChanger
+    NavbarMenu
+    /*LocaleChanger*/
   }
 }
 </script>
