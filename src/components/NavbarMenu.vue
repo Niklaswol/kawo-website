@@ -10,7 +10,7 @@
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item"> <faIcon :icon="['fab', 'twitter']"></faIcon> </a>
+        <a class="navbar-item" href="https://www.linkedin.com/company/kawo-gmbh/about/"> <faIcon :icon="['fab', 'twitter']"></faIcon> </a>
         <a class="navbar-item"> <faIcon :icon="['fab', 'facebook']"></faIcon> </a>
         <a class="navbar-item"> <faIcon :icon="['fab', 'linkedin']"></faIcon> </a>
       </div>
@@ -26,13 +26,16 @@
         </a>
       </div>
       <div class="navbar-end">
-        <a class="navbar-item"> <faIcon icon="search"></faIcon> </a>
-        <a class="navbar-item"> <faIcon icon="user"></faIcon> </a>
-        <a class="navbar-item"> <faIcon icon="shopping-bag"></faIcon> </a>
+        <a class="button">24/7 Hotline<faIcon icon="phone-volume" class="phone"></faIcon></a>
+        <LocaleChanger class="locale-changer"/>
       </div>
+      <hr>
       <div class="navbar-start navbar-wide">
-        <a class="navbar-item"> Home </a>
-        <a class="navbar-item"> Documentation </a>
+        <a class="navbar-item"> Start </a>
+        <a class="navbar-item"> Leistungen </a>
+        <a class="navbar-item"> Einsatzbereiche </a>
+        <a class="navbar-item"> Über Uns </a>
+        <a class="navbar-item"> Kontakt </a>
       </div>
     </div>
   </nav>
@@ -50,4 +53,17 @@
   flex: 1 1 100%;
   justify-content: center;
 }
+.button{
+  margin-top: 0.5rem;
+}
+.phone {
+  margin-left: 10px;
+}
+.locale-changer{
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
 </style>
+<script setup>
+import LocaleChanger from "@/components/LocaleChanger.vue";
+</script>
