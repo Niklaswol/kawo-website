@@ -26,7 +26,7 @@
         </a>
       </div>
       <div class="navbar-end">
-        <a class="button">24/7 Hotline<faIcon icon="phone-volume" class="phone"></faIcon></a>
+        <a class="button is-primary">24/7 Hotline<faIcon icon="phone-volume" class="phone"></faIcon></a>
         <LocaleChanger class="locale-changer"/>
       </div>
       <hr>
@@ -41,7 +41,21 @@
   </nav>
 </template>
 
+<script>
+import LocaleChanger from "@/components/LocaleChanger.vue";
+
+export default {
+  name: "NavbarMenu",
+  components: {
+    LocaleChanger
+  }
+}
+</script>
+
 <style scoped>
+.navbar{
+  margin: 0 1rem 0 1rem;
+}
 .navbar-menu {
   flex-wrap: wrap;
 }
@@ -64,6 +78,3 @@
   margin-left: 0.5rem;
 }
 </style>
-<script setup>
-import LocaleChanger from "@/components/LocaleChanger.vue";
-</script>
