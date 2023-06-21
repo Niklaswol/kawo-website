@@ -22,9 +22,6 @@
 </template>
 
 <style scoped>
-.tile {
-  border: red 1px solid;
-}
 .img{
   background:linear-gradient(0deg, #00D1B238, #00D1B238), url("../assets/Test_Bild.jpeg");
   background-size:cover;

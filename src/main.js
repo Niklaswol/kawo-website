@@ -8,6 +8,8 @@ import {fab} from '@fortawesome/free-brands-svg-icons'
 import {createI18n} from "vue-i18n";
 import de from "./locales/de.json";
 import en from "./locales/en.json";
+import VueSplide from '@splidejs/vue-splide';
+import '@splidejs/splide/dist/css/splide.min.css';
 
 require('@/assets/main.scss');
 
@@ -23,5 +25,6 @@ const app = createApp(App)
 
 app.use(i18n)
 app.use(router)
+app.use( VueSplide );
 app.component('faIcon', FontAwesomeIcon)
 app.mount('#app')
