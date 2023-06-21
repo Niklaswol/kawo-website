@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import TextImage from "@/components/TextImage.vue";
+import TextImage from "@/components/Basic/TextImage.vue";
 
 export default {
   name: "SlideShow",

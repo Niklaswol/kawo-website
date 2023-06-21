@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import LocaleChanger from "@/components/LocaleChanger.vue";
+import LocaleChanger from "@/components/NavbarMenu/LocaleChanger.vue";
 
 export default {
   name: "NavbarMenu",

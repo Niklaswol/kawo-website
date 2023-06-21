@@ -1,6 +1,6 @@
 <template>
   <div class="img is-relative has-text-centered">
-    <img :src="require(`../assets/${img}`)" alt="slide-show-image" class="is-full">
+    <img :src="require(`../../assets/${img}`)" alt="slide-show-image" class="is-full">
     <div class="overlay">
       <div class="centered">
         <p class="title is-1 has-text-white">{{ title }}</p>
