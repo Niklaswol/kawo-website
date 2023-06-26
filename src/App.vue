@@ -2,15 +2,18 @@
   <div class="div">
     <NavbarMenu/>
     <router-view></router-view>
+    <FooterMenu/>
   </div>
 </template>
 
 <script>
-import NavbarMenu from "@/components/NavbarMenu/NavbarMenu.vue";
+import NavbarMenu from "@/components/NavbarMenu.vue";
+import FooterMenu from "@/components/FooterMenu.vue";
 
 export default {
   name: 'App',
   components: {
+    FooterMenu,
     NavbarMenu
   }
 }

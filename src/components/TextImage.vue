@@ -1,6 +1,8 @@
 <template>
   <div class="img is-relative has-text-centered">
-    <img :src="require(`../../assets/${img}`)" alt="slide-show-image" class="is-full">
+    <div class="image-container">
+      <img :src="require(`../assets/${img}`)" alt="slide-show-image">
+    </div>
     <div class="overlay">
       <div class="centered">
         <p class="title is-1 has-text-white">{{ title }}</p>
@@ -16,7 +18,7 @@ export default {
   props: {
     img: String,
     title: String,
-    subtitle: String
+    subtitle: String,
   },
 }
 </script>
@@ -31,14 +33,17 @@ export default {
 
 .overlay {
   position: absolute;
-  background: rgba(57, 57, 57, 0.5);
+  background: #1A1D4E81;
   display: flex;
   align-items: center;
   justify-content: center;
   inset: 0;
 }
 
-.img {
-  height: 40rem;
+img{
+  max-height: 30rem;
+  width: 100% !important;
+  object-fit: cover;
+  object-position: center;
 }
 </style>
