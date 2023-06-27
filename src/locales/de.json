@@ -1,5 +1,51 @@
 {
-  "main": {
-    "hello": "Hallo Welt!"
+  "navbar": {
+    "home": "Home",
+    "services": "Leistungen",
+    "areas": "Einsatzbereiche",
+    "aboutUs": "Über Uns",
+    "contact": "Kontakt"
+  },
+  "homePage": {
+    "companyName": "KAWO GMBH",
+    "info": "Der On-Board Courier ist in der Logistikbranche fest etabliert und kommt zum Einsatz wenn herkömmliche Logistikwege versagen. Wir haben uns zum Ziel gesetzt auf jede Ihrer OBC Anfragen schnell und individuell zu reagieren. Wir sind seit 1995 auf den On Board Courier - Handcarry spezialisiert und möchten Ihnen unseren professionellen Service auf den nächsten Seiten näher bringen. Mit unserem Service halten Sie Ihre Liefertermine ein und wenden Sie größere Schäden durch Produktionsausfälle ab. Wir verstehen uns als Dienstleister für Speditionen und Industrie.",
+    "services": {
+      "onboard": {
+        "title": "ON-BOARD COURIER",
+        "subtitle": "Weltweit so schnell wie möglich an Ihren Zielort und das rund um die Uhr"
+      },
+      "flex": {
+        "title": "FLEX",
+        "subtitle": "Die Lösung für jede Art von Sendung, jedes Ziel und jedes Budget"
+      },
+      "charter": {
+        "title": "AIR CHARTER",
+        "subtitle": "Egal ob Cessna, Boeing, Helikopter oder Antonov chartern Sie was Sie wollen"
+      }
+    },
+    "contactUs": {
+      "title": "KONTAKTIEREN SIE UNS",
+      "subtitle": "Wir sind 24 Stunden, 7 Tage die Woche und 365 Tage im Jahr für Sie im Einsatz.",
+      "email": "Schreiben Sie uns eine Email",
+      "block": "Unsere Kuriere sind überall und jederzeit für Sie einsatzbereit."
+    },
+    "experts": {
+      "title": "DIE EXPERTEN IN EMERGENCY LOGISTICS",
+      "text": "Wir sind seit 1995 auf den On Board Courier - Handcarry spezialisiert und möchten Ihnen unseren professionellen Service auf den nächsten Seiten näher bringen. Mit unserem Service halten Sie Ihre Liefertermine ein und wenden Sie größere Schäden durch Produktionsausfälle ab. Wir verstehen uns als Dienstleister für Speditionen und Industrie. Zu unseren Kunden gehören namhafte Unternehmen aus der Automobil, Aviation und Computer-Industrie. Unsere Auftraggeber kennen uns als seriösen und zuverlässigen Partner der absoluten Kundenschutz gewährt. Die Zufriedenheit unserer Partner gibt uns Recht und so blicken wir nunmehr auf über 25.000 erfolgreich abgewickelte On Board Courier Sendungen, die weltweit sicher und zuverlässig durch unsere Kuriere ihr Ziel erreicht haben. Profitieren auch Sie von unserer langjährigen Erfahrung und „know how“. Bei Fragen stehen wir Ihnen jederzeit unter unserer 24 Stunden Hotline zur Verfügung."
+    },
+    "areas": {
+      "auto": {
+        "title": "Automotive Parts",
+        "subtitle": "Weltweit so schnell wie möglich an Ihren Zielort und das rund um die Uhr"
+      },
+      "logistic": {
+        "title": "Ersatzteillogistik",
+        "subtitle": "Die Lösung für jede Art von Sendung, jedes Ziel und jedes Budget"
+      },
+      "proto": {
+        "title": "Prototypen",
+        "subtitle": "Egal ob Cessna, Boeing, Helikopter oder Antonov chartern Sie was Sie wollen"
+      }
+    }
   }
 }

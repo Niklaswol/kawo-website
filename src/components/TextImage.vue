@@ -5,7 +5,9 @@
     </div>
     <div class="overlay">
       <div class="centered">
+        <hr>
         <p class="title is-1 has-text-white">{{ title }}</p>
+        <hr>
         <p class="subtitle has-text-white">{{ subtitle }}</p>
       </div>
     </div>
@@ -26,9 +28,8 @@ export default {
 <style scoped>
 .centered {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .overlay {
@@ -40,7 +41,7 @@ export default {
   inset: 0;
 }
 
-img{
+img {
   max-height: 30rem;
   width: 100% !important;
   object-fit: cover;

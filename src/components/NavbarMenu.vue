@@ -10,9 +10,7 @@
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="https://www.linkedin.com/company/kawo-gmbh/about/"> <faIcon :icon="['fab', 'twitter']"></faIcon> </a>
-        <a class="navbar-item"> <faIcon :icon="['fab', 'facebook']"></faIcon> </a>
-        <a class="navbar-item"> <faIcon :icon="['fab', 'linkedin']"></faIcon> </a>
+        <a class="button is-light">24/7 Hotline<faIcon icon="phone-volume" class="phone"></faIcon></a>
       </div>
       <div class="navbar-brand is-hidden-touch">
         <a class="navbar-item" href="https://bulma.io">
@@ -26,16 +24,15 @@
         </a>
       </div>
       <div class="navbar-end">
-        <a class="button is-primary">24/7 Hotline<faIcon icon="phone-volume" class="phone"></faIcon></a>
         <LocaleChanger class="locale-changer"/>
       </div>
       <hr>
       <div class="navbar-start navbar-wide">
-        <a class="navbar-item"> Start </a>
-        <a class="navbar-item"> Leistungen </a>
-        <a class="navbar-item"> Einsatzbereiche </a>
-        <a class="navbar-item"> Über Uns </a>
-        <a class="navbar-item"> Kontakt </a>
+        <a class="navbar-item"> {{ $t("navbar.home") }} </a>
+        <a class="navbar-item"> {{ $t("navbar.services") }} </a>
+        <a class="navbar-item"> {{ $t("navbar.areas") }} </a>
+        <a class="navbar-item"> {{ $t("navbar.aboutUs") }} </a>
+        <a class="navbar-item"> {{ $t("navbar.contact") }} </a>
       </div>
     </div>
   </nav>
