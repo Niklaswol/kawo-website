@@ -6,9 +6,9 @@
     <div class="overlay">
       <div class="centered">
         <hr>
-        <p class="title is-1 has-text-white">{{ title }}</p>
+        <p class="title is-1 has-text-white">{{ $t(title) }}</p>
         <hr>
-        <p class="subtitle has-text-white">{{ subtitle }}</p>
+        <p class="subtitle has-text-white">{{ $t(subtitle) }}</p>
       </div>
     </div>
   </div>

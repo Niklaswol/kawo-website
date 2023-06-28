@@ -1,7 +1,6 @@
 <template>
   <SlideShow/>
   <ServiceTiles :title="$t('homePage.companyName')" :subtitle="$t('homePage.info')" :tiles="services"/>
-
   <section class="hero is-small is-light info">
     <div class="hero-body">
       <p class="title">
@@ -71,18 +70,10 @@ export default {
   },
   data() {
     return {
-      services: [
-        {title: `${this.$t('homePage.services.onboard.title')}`, subtitle: `${this.$t('homePage.services.onboard.subtitle')}`, img: 'Plane1.jpg'},
-        {title: `${this.$t('homePage.services.flex.title')}`, subtitle: `${this.$t('homePage.services.flex.subtitle')}`, img: 'Plane1.jpg'},
-        {title: `${this.$t('homePage.services.charter.title')}`, subtitle: `${this.$t('homePage.services.charter.subtitle')}`, img: 'Plane1.jpg'},
-      ],
-      areas: [
-        {title: `${this.$t('homePage.areas.auto.title')}`, subtitle: `${this.$t('homePage.areas.auto.subtitle')}`, img: 'Plane1.jpg'},
-        {title: `${this.$t('homePage.areas.logistic.title')}`, subtitle: `${this.$t('homePage.areas.logistic.subtitle')}`, img: 'Plane1.jpg'},
-        {title: `${this.$t('homePage.areas.proto.title')}`, subtitle: `${this.$t('homePage.areas.proto.subtitle')}`, img: 'Plane1.jpg'},
-      ]
+      services:  this.$store.getters.getServices,
+      areas:  this.$store.getters.getAreas
     }
-  }
+  },
 }
 </script>
 
@@ -101,7 +92,7 @@ button {
   justify-content: left;
 }
 
-.hero-body{
+.hero-body {
   margin-left: 2rem;
 }
 </style>
