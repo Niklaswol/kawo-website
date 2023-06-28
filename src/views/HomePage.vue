@@ -1,6 +1,7 @@
 <template>
-  <SlideShow/>
+  <img src="../assets/Plane1.jpg" alt="slide-show-image">
   <ServiceTiles :title="$t('homePage.companyName')" :subtitle="$t('homePage.info')" :tiles="services"/>
+
   <section class="hero is-small is-light info">
     <div class="hero-body">
       <p class="title">
@@ -24,7 +25,7 @@
       </div>
       <div class="columns">
         <div class="column">
-          <button class="button is-success is-medium has-text-dark">
+          <button class="button is-success is-medium">
             <span class="icon is-small has-text-white">
               <faIcon icon="envelope"></faIcon>
             </span>
@@ -41,16 +42,18 @@
     </div>
   </section>
 
-  <section class="hero is-small experts">
-    <div class="hero-body">
-      <p class="title">
-        {{ $t('homePage.experts.title') }}
-      </p>
-      <div class="block">
-        {{ $t('homePage.experts.text') }}
+  <div class="experts">
+    <section class="hero is-small">
+      <div class="hero-body">
+        <p class="title">
+          {{ $t('homePage.experts.title') }}
+        </p>
+        <div class="block">
+          {{ $t('homePage.experts.text') }}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <hr class="divider">
 
@@ -60,18 +63,16 @@
 
 <script>
 import ServiceTiles from "@/components/ServiceTiles.vue";
-import SlideShow from "@/components/SlideShow.vue";
 
 export default {
   name: 'HomePage',
   components: {
-    SlideShow,
     ServiceTiles,
   },
   data() {
     return {
-      services:  this.$store.getters.getServices,
-      areas:  this.$store.getters.getAreas
+      services: this.$store.getters.getServices,
+      areas: this.$store.getters.getAreas
     }
   },
 }
@@ -90,9 +91,5 @@ button {
   min-height: 75px;
   text-align: left;
   justify-content: left;
-}
-
-.hero-body {
-  margin-left: 2rem;
 }
 </style>

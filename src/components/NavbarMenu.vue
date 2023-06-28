@@ -10,7 +10,7 @@
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="button is-light">24/7 Hotline<faIcon icon="phone-volume" class="phone"></faIcon></a>
+        <a class="button is-primary">24/7 Hotline<faIcon icon="phone-volume" class="phone"></faIcon></a>
       </div>
       <div class="navbar-brand is-hidden-touch">
         <a class="navbar-item" href="https://bulma.io">

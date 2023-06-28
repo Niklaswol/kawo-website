@@ -34,7 +34,7 @@ export default {
 
 .overlay {
   position: absolute;
-  background: #1A1D4E81;
+  background: #2A1E5CC7;
   display: flex;
   align-items: center;
   justify-content: center;

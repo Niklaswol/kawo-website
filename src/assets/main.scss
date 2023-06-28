@@ -1,9 +1,17 @@
 @charset "utf-8";
 
-$primary: #4e7fe1;
-$success: #56dc29;
-$info: #F1F1F1;
-$dark: #1A1D4E;
+$primary: #07A0C3;
+$success: #6DA34D;
+$info: #E4DFDA;
+$dark: #2A1E5C76;
+
+.section {
+  margin: 0 5rem 0 5rem
+}
+
+.hero-body {
+  margin: 0 6rem 0 6rem
+}
 
 // Import only what you need from Bulma
 @import "./node_modules/bulma/sass/utilities/_all.sass";
