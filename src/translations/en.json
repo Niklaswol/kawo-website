@@ -7,11 +7,13 @@
     "contact": "Contact"
   },
   "homePage": {
+    "title": "Grow your business. We will take care all your logistics",
+    "subtitle": "Today i want to share my exploration about Shipping Landing Page called Cicero. Cicero help everyone who need fast and reliable shipping company. Hope you like it guys!! Thankyou",
     "companyName": "KAWO GMBH",
     "info": "The On Board Courier is firmly established in the logistics industry and is used when conventional logistics routes fail. We have set ourselves the goal to respond quickly and individually to each of your OBC requests. We are specialized in On Board Courier - Handcarry since 1995 and would like to introduce you to our professional service on the following pages. With our service you will keep your delivery dates and avert bigger damages caused by production losses. We see ourselves as a service provider for forwarding companies and industry.",
     "services": {
       "onboard": {
-        "title": "ON-BOARD COURIER",
+        "title": "OBC",
         "subtitle": "Worldwide as fast as possible to your destination and around the clock"
       },
       "flex": {

@@ -1,7 +1,7 @@
 <template>
   <div class="img is-relative has-text-centered">
     <div class="image-container">
-      <img :src="require(`../assets/${img}`)" alt="slide-show-image">
+      <img class="header" :src="require(`../assets/${img}`)" alt="slide-show-image">
     </div>
     <div class="overlay">
       <div class="centered">
@@ -24,27 +24,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.centered {
-  position: absolute;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
-.overlay {
-  position: absolute;
-  background: #2A1E5CC7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  inset: 0;
-}
-
-img {
-  max-height: 30rem;
-  width: 100% !important;
-  object-fit: cover;
-  object-position: center;
-}
-</style>

@@ -1,9 +1,11 @@
 @charset "utf-8";
 
-$primary: #07A0C3;
-$success: #6DA34D;
-$info: #E4DFDA;
-$dark: #2A1E5C76;
+$primary: #FBFBF2;
+$success: #5AFF15;
+$danger: #942911;
+$dark: #00120B;
+$dark-overlay: #00120B80;
+$dimensions: 16 24 32 48 64 96 128 256;
 
 .section {
   margin: 0 5rem 0 5rem
@@ -11,6 +13,46 @@ $dark: #2A1E5C76;
 
 .hero-body {
   margin: 0 6rem 0 6rem
+}
+
+.centered {
+  position: absolute;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.overlay {
+  position: absolute;
+  background: $dark-overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+  border-radius: 20px;
+}
+
+.header {
+  max-height: 30rem;
+  width: 100% !important;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.slide {
+  max-height: 35rem;
+  width: 100% !important;
+  object-fit: cover;
+  object-position: center;
+}
+
+.emergency {
+  min-width: 400px;
+  min-height: 75px;
+}
+
+.phone {
+  margin-right: 10px;
 }
 
 // Import only what you need from Bulma
@@ -23,3 +65,4 @@ $dark: #2A1E5C76;
 @import "./node_modules/bulma/sass/components/navbar.sass";
 @import "./node_modules/bulma/sass/layout/hero.sass";
 @import "./node_modules/bulma/sass/layout/section.sass";
+@import "./node_modules/bulma-o-steps/bulma-steps.sass";

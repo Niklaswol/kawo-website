@@ -10,7 +10,9 @@
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="button is-primary">24/7 Hotline<faIcon icon="phone-volume" class="phone"></faIcon></a>
+<!--
+        <button class="button is-dark"><faIcon icon="phone-volume" class="phone"></faIcon>24/7 Hotline</button>
+-->
       </div>
       <div class="navbar-brand is-hidden-touch">
         <a class="navbar-item" href="https://bulma.io">
@@ -68,7 +70,7 @@ export default {
   margin-top: 0.5rem;
 }
 .phone {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .locale-changer{
   margin-top: 0.5rem;
