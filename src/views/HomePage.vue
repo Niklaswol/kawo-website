@@ -4,13 +4,13 @@
     <p class="subtitle">{{ $t('homePage.subtitle') }}</p>
     <div class="columns">
       <div class="column">
-        <button class="button is-dark has-icons-left">
+        <button class="button is-dark has-icons-left" @click="$refs.modalElement.toggleModal()">
           <faIcon icon="phone-volume" class="phone"></faIcon>
-          Jetzt anrufen
+          Jetzt kontaktieren
         </button>
         <button class="button has-icons-left ml-2">
           <faIcon icon="briefcase" class="phone"></faIcon>
-          Leistungen
+          Unsere Leistungen
         </button>
       </div>
     </div>
@@ -296,8 +296,27 @@
     <ServiceTiles class="mt-6" :title="$t('homePage.companyName')" :subtitle="$t('homePage.info')" :tiles="services"/>
   </section>
 
+  <section class="section">
+    <div class="columns">
+      <div class="column is-3">
+        <p class="title is-2">Sound from our happy Partners</p>
+      </div>
+      <div class="column is-3"></div>
+      <div class="column is-4">
+        <p class="title is-2">25.000+</p>
+        <p class="subtitle">erfolgreich abgewickelte On-Board Courier Sendungen</p>
+      </div>
+      <div class="column is-4">
+        <p class="title is-2">25 Jahre+</p>
+        <p class="subtitle">Erfahrung und know how</p>
+      </div>
+    </div>
+    <div class="columns">
 
-  <!--  <ServiceTiles :title="'TRANSPORTBEREICHE'" :tiles="areas" class="areas"/>-->
+    </div>
+  </section>
+
+  <QuestionsSection/>
 
   <section class="hero is-small is-dark info">
     <div class="hero-body">
@@ -310,10 +329,10 @@
       <div class="columns">
         <div class="column">
           <button class="button is-primary is-medium has-icons-left has-text-left is-justify-content-left emergency">
-            <span class="icon has-text-white">
+            <span class="icon">
               <faIcon icon="phone-volume"></faIcon>
             </span>
-            <span>
+            <span class="text-btn-icon">
               24/7 Hotline <br>
               <b> +49(0)214 61-291 </b>
             </span>
@@ -323,10 +342,10 @@
       <div class="columns">
         <div class="column">
           <button class="button is-primary is-medium has-icons-left has-text-left is-justify-content-left emergency">
-            <span class="icon is-small has-text-white">
+            <span class="icon is-small">
               <faIcon icon="envelope"></faIcon>
             </span>
-            <span>
+            <span class="text-btn-icon">
                {{ $t('homePage.contactUs.email') }} <br>
               <b> KAWO@KAWO.DE </b>
             </span>
@@ -339,22 +358,28 @@
     </div>
   </section>
 
+  <ModalElement ref="modalElement"/>
+
 </template>
 
 <script>
 import ServiceTiles from "@/components/ServiceTiles.vue";
 import SlideShow from "@/components/SlideShow.vue";
+import QuestionsSection from "@/components/QuestionsSection.vue";
+import ModalElement from "@/components/ModalElement.vue";
 
 export default {
   name: 'HomePage',
   components: {
+    ModalElement,
+    QuestionsSection,
     SlideShow,
     ServiceTiles,
   },
   data() {
     return {
       services: this.$store.getters.getServices,
-      areas: this.$store.getters.getAreas
+      areas: this.$store.getters.getAreas,
     }
   },
 }

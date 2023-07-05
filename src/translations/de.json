@@ -48,6 +48,20 @@
         "title": "Prototypen",
         "subtitle": "Egal ob Cessna, Boeing, Helikopter oder Antonov chartern Sie was Sie wollen"
       }
+    },
+    "questions": {
+      "first": {
+        "title": "Welches Notfalllogistikunternehmen ist rund um die Uhr erreichbar?",
+        "answer": "Samedaylogistics ist zu jeder Tages- und Nachtzeit, an 365 Tagen im Jahr für Sie im Einsatz. Kontaktieren Sie uns einfach unter der Notfallhotline +49 (0)6107 5051-25 oder via helpnow@samedaylogistics.de"
+      },
+      "second": {
+        "title": "Ist Samedaylogistics auch international vertreten?",
+        "answer": "Samedaylogistics ist auch außerhalb Deutschlands für Sie im Einsatz. Sie können uns auch in Italien, Rumänien, Schweden, Tschechien oder in den USA rund um die Uhr erreichen. Wählen Sie hierfür einfach das entsprechende Land unter unserem Anrufbutton aus."
+      },
+      "third": {
+        "title": "Sie benötigen dringend wichtige Dokumente und wissen nicht wer Ihnen weiterhelfen kann?",
+        "answer": "Dringend benötigte Ware, wie beispielsweise wichtige Dokumente, liefern wir auf dem schnellstmöglichen Weg zu Ihnen. Egal ob die Ware per Straße oder in der Luft befördert werden muss, Samedaylogistics findet eine maßgeschneiderte Logistiklösung für Ihre Anfrage. Informieren Sie sich auf unserer Website gerne näher zu unseren einzelnen Serviceleistungen."
+      }
     }
   }
 }

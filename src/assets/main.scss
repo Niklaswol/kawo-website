@@ -47,12 +47,20 @@ $dimensions: 16 24 32 48 64 96 128 256;
 }
 
 .emergency {
-  min-width: 400px;
-  min-height: 75px;
+  min-width: 25rem;
+  min-height: 4rem;
 }
 
 .phone {
   margin-right: 10px;
+}
+
+.text-btn-icon {
+  margin-left: 1rem;
+}
+
+.modal-card {
+  border-radius: 20px;
 }
 
 // Import only what you need from Bulma

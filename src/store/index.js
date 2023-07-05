@@ -35,7 +35,24 @@ const store = createStore({
                 subtitle: 'homePage.areas.proto.subtitle',
                 img: 'Plane1.jpg'
             },
-        ]
+        ],
+        questions: [
+            {
+                id: 0,
+                title: 'homePage.questions.first.title',
+                answer: 'homePage.questions.first.answer',
+            },
+            {
+                id: 1,
+                title: 'homePage.questions.second.title',
+                answer: 'homePage.questions.second.answer',
+            },
+            {
+                id: 2,
+                title: 'homePage.questions.third.title',
+                answer: 'homePage.questions.third.answer',
+            },
+        ].map(question => ({...question, visible: false})),
     },
     getters: {
         getServices(state) {
@@ -43,6 +60,9 @@ const store = createStore({
         },
         getAreas(state) {
             return state.areas
+        },
+        getQuestions(state) {
+            return state.questions
         }
     },
 })

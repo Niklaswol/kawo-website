@@ -10,9 +10,14 @@
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-<!--
-        <button class="button is-dark"><faIcon icon="phone-volume" class="phone"></faIcon>24/7 Hotline</button>
--->
+        <button class="button is-medium has-icons-left has-text-left is-justify-content-left">
+            <span class="icon">
+              <faIcon icon="phone-volume"></faIcon>
+            </span>
+          <span>
+              <b> +49(0)214 61-291 </b>
+            </span>
+        </button>
       </div>
       <div class="navbar-brand is-hidden-touch">
         <a class="navbar-item" href="https://bulma.io">
@@ -52,27 +57,33 @@ export default {
 </script>
 
 <style scoped>
-.navbar{
+.navbar {
   margin: 0 1rem 0 1rem;
 }
+
 .navbar-menu {
   flex-wrap: wrap;
 }
+
 .navbar-start,
-.navbar-end{
+.navbar-end {
   flex: 1 1 0;
 }
+
 .navbar-wide.navbar-start {
   flex: 1 1 100%;
   justify-content: center;
 }
-.button{
+
+.button {
   margin-top: 0.5rem;
 }
+
 .phone {
   margin-right: 10px;
 }
-.locale-changer{
+
+.locale-changer {
   margin-top: 0.5rem;
   margin-left: 0.5rem;
 }
