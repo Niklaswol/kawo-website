@@ -8,10 +8,12 @@
           <faIcon icon="phone-volume" class="phone"></faIcon>
           Jetzt kontaktieren
         </button>
-        <button class="button has-icons-left ml-2">
-          <faIcon icon="briefcase" class="phone"></faIcon>
-          Unsere Leistungen
-        </button>
+        <router-link to="/products">
+          <button class="button has-icons-left ml-2">
+            <faIcon icon="briefcase" class="phone"></faIcon>
+            Unsere Leistungen
+          </button>
+        </router-link>
       </div>
     </div>
     <SlideShow/>

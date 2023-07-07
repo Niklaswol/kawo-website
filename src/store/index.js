@@ -6,34 +6,40 @@ const store = createStore({
             {
                 title: 'homePage.services.onboard.title',
                 subtitle: 'homePage.services.onboard.subtitle',
-                img: 'Plane1.jpg'
+                img: 'Plane1.jpg',
+                route: '/products'
             },
             {
                 title: 'homePage.services.flex.title',
                 subtitle: 'homePage.services.flex.subtitle',
-                img: 'Plane1.jpg'
+                img: 'Plane1.jpg',
+                route: '/products'
             },
             {
                 title: 'homePage.services.charter.title',
                 subtitle: 'homePage.services.charter.title',
-                img: 'Plane1.jpg'
+                img: 'Plane1.jpg',
+                route: '/products'
             },
         ],
         areas: [
             {
                 title: 'homePage.areas.auto.title',
                 subtitle: 'homePage.areas.auto.title',
-                img: 'Plane1.jpg'
+                img: 'Plane1.jpg',
+                route: '/operations'
             },
             {
                 title: 'homePage.areas.logistic.title',
                 subtitle: 'homePage.areas.logistic.subtitle',
-                img: 'Plane1.jpg'
+                img: 'Plane1.jpg',
+                route: '/operations'
             },
             {
                 title: 'homePage.areas.proto.title',
                 subtitle: 'homePage.areas.proto.subtitle',
-                img: 'Plane1.jpg'
+                img: 'Plane1.jpg',
+                route: '/operations'
             },
         ],
         questions: [

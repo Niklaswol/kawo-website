@@ -35,11 +35,11 @@
       </div>
       <hr>
       <div class="navbar-start navbar-wide">
-        <a class="navbar-item"> {{ $t("navbar.home") }} </a>
-        <a class="navbar-item"> {{ $t("navbar.services") }} </a>
-        <a class="navbar-item"> {{ $t("navbar.areas") }} </a>
-        <a class="navbar-item"> {{ $t("navbar.aboutUs") }} </a>
-        <a class="navbar-item"> {{ $t("navbar.contact") }} </a>
+        <router-link class="navbar-item" to="/"> {{ $t("navbar.home") }}</router-link>
+        <router-link class="navbar-item" to="/products"> {{ $t("navbar.services") }}</router-link>
+        <router-link class="navbar-item" to="/operations"> {{ $t("navbar.areas") }}</router-link>
+        <router-link class="navbar-item" to="/about-us"> {{ $t("navbar.aboutUs") }}</router-link>
+        <router-link class="navbar-item" to="/contact"> {{ $t("navbar.contact") }}</router-link>
       </div>
     </div>
   </nav>
