@@ -24,3 +24,24 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.header {
+  max-height: 30rem;
+  width: 100% !important;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  background: #00120B80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+  border-radius: 20px;
+  max-height: 98.5% !important;
+}
+</style>
