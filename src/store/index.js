@@ -2,42 +2,22 @@ import {createStore} from 'vuex'
 
 const store = createStore({
     state: {
-        services: [
-            {
-                title: 'homePage.services.onboard.title',
-                subtitle: 'homePage.services.onboard.subtitle',
-                img: 'Plane1.jpg',
-                route: '/products'
-            },
-            {
-                title: 'homePage.services.flex.title',
-                subtitle: 'homePage.services.flex.subtitle',
-                img: 'Plane1.jpg',
-                route: '/products'
-            },
-            {
-                title: 'homePage.services.charter.title',
-                subtitle: 'homePage.services.charter.title',
-                img: 'Plane1.jpg',
-                route: '/products'
-            },
-        ],
         areas: [
             {
                 title: 'homePage.areas.auto.title',
-                subtitle: 'homePage.areas.auto.title',
+                subtitle: 'homePage.areas.auto.subtitle',
                 img: 'Plane1.jpg',
                 route: '/operations'
             },
             {
-                title: 'homePage.areas.logistic.title',
-                subtitle: 'homePage.areas.logistic.subtitle',
+                title: 'homePage.areas.comp.title',
+                subtitle: 'homePage.areas.comp.subtitle',
                 img: 'Plane1.jpg',
                 route: '/operations'
             },
             {
-                title: 'homePage.areas.proto.title',
-                subtitle: 'homePage.areas.proto.subtitle',
+                title: 'homePage.areas.avia.title',
+                subtitle: 'homePage.areas.avia.subtitle',
                 img: 'Plane1.jpg',
                 route: '/operations'
             },
@@ -57,6 +37,16 @@ const store = createStore({
                 id: 2,
                 title: 'homePage.questions.third.title',
                 answer: 'homePage.questions.third.answer',
+            },
+            {
+                id: 3,
+                title: 'homePage.questions.fourth.title',
+                answer: 'homePage.questions.fourth.answer',
+            },
+            {
+                id: 4,
+                title: 'homePage.questions.fifth.title',
+                answer: 'homePage.questions.fifth.answer',
             },
         ].map(question => ({...question, visible: false})),
     },

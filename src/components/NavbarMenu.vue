@@ -10,14 +10,6 @@
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <button class="button is-medium has-icons-left has-text-left is-justify-content-left">
-            <span class="icon">
-              <faIcon icon="phone-volume"></faIcon>
-            </span>
-          <span>
-              <b> +49(0)214 61-291 </b>
-            </span>
-        </button>
       </div>
       <div class="navbar-brand is-hidden-touch">
         <a class="navbar-item" href="https://bulma.io">
@@ -36,8 +28,25 @@
       <hr>
       <div class="navbar-start navbar-wide">
         <router-link class="navbar-item" to="/"> {{ $t("navbar.home") }}</router-link>
-        <router-link class="navbar-item" to="/products"> {{ $t("navbar.services") }}</router-link>
-        <router-link class="navbar-item" to="/operations"> {{ $t("navbar.areas") }}</router-link>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <router-link class="navbar-item" to="/products"> {{ $t("navbar.services.title") }}</router-link>
+          <div class="navbar-dropdown">
+            <router-link class="navbar-item" to="/products/obc"> {{ $t("navbar.services.obc") }}</router-link>
+            <router-link class="navbar-item" to="/products/flex"> {{ $t("navbar.services.flex") }}</router-link>
+            <router-link class="navbar-item" to="/products/charter"> {{ $t("navbar.services.charter") }}</router-link>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <router-link class="navbar-item" to="/operations"> {{ $t("navbar.operations.title") }}</router-link>
+          <div class="navbar-dropdown">
+            <router-link class="navbar-item" to="/operations/auto"> {{ $t("navbar.operations.auto") }}</router-link>
+            <router-link class="navbar-item" to="/operations/comp"> {{ $t("navbar.operations.comp") }}</router-link>
+            <router-link class="navbar-item" to="/operations/avia"> {{ $t("navbar.operations.avia") }}</router-link>
+          </div>
+        </div>
+
         <router-link class="navbar-item" to="/about-us"> {{ $t("navbar.aboutUs") }}</router-link>
         <router-link class="navbar-item" to="/contact"> {{ $t("navbar.contact") }}</router-link>
       </div>

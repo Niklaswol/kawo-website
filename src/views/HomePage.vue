@@ -21,24 +21,91 @@
 
   <section class="section">
     <div class="columns">
-      <div class="column is-3">
-        <p class="title is-2">Solution for you business needs</p>
+      <div class="column is-4">
+        <p class="title is-2">{{ $t('homePage.about.title') }}</p>
       </div>
       <div class="column"></div>
       <div class="column">
-        <div class="block">Wir sind seit 1995 auf den On Board Courier - Handcarry spezialisiert und möchten Ihnen
-          unseren
-          professionellen Service auf den nächsten Seiten näher bringen.
+        <div class="block">{{ $t('homePage.about.text') }}</div>
+      </div>
+    </div>
+    <div class="columns mt-4">
+      <div class="column is-4">
+        <div class="card about">
+          <div class="icon-container">
+            <faIcon icon="earth-europe" class="about-icon"></faIcon>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{ $t('homePage.about.advantages.globe.title') }}</p>
+              </div>
+            </div>
+
+            <div class="content">
+              {{ $t('homePage.about.advantages.globe.text') }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card about">
+          <div class="icon-container">
+            <faIcon icon="hourglass-start" class="about-icon"></faIcon>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{ $t('homePage.about.advantages.time.title') }}</p>
+              </div>
+            </div>
+
+            <div class="content">
+              {{ $t('homePage.about.advantages.time.text') }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card about">
+          <div class="icon-container">
+            <faIcon icon="brain" class="about-icon"></faIcon>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{ $t('homePage.about.advantages.individual.title') }}</p>
+              </div>
+            </div>
+
+            <div class="content">
+              {{ $t('homePage.about.advantages.individual.text') }}
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <ServiceTiles class="mt-6" :title="$t('homePage.companyName')" :subtitle="$t('homePage.info')" :tiles="services"/>
+  </section>
+
+  <section class="hero has-text-centered">
+    <div class="hero-body">
+      <div class="columns">
+        <div class="column"></div>
+        <div class="column is-7">
+          <p class="title is-2">{{ $t('homePage.services.title') }}</p>
+          <div class="block">{{ $t('homePage.services.text') }}</div>
+        </div>
+        <div class="column"></div>
+      </div>
+    </div>
   </section>
 
   <section class="section">
     <div class="columns">
       <div class="column">
-        <div class="card">
+        <div class="card about">
           <div class="card-content">
             <div class="columns">
               <div class="column">
@@ -97,39 +164,14 @@
 
       <div class="column">
         <p class="title">
-          Pro-Active Tracking
+          {{ $t('homePage.services.onboard.title') }}
         </p>
         <div class="block">
-          Wir bieten Ihnen vielseitige Transportlösungen für Ihre eiligen Sendungen. Egal wie kurzfristig Sie handeln
-          müssen, wir bieten Ihnen eine individuell auf Ihre Bedürfnisse zugeschnittene On Board Courier Lösung.
+          {{ $t('homePage.services.onboard.subtitle') }}
         </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block7">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="columns mt-5">
+        <div class="columns">
           <div class="column">
-            <div class="button">Jetzt mehr erfahren</div>
+            <a>{{ $t('homePage.services.onboard.link') }}</a>
           </div>
         </div>
       </div>
@@ -140,39 +182,14 @@
     <div class="columns">
       <div class="column">
         <p class="title">
-          Pro-Active Tracking
+          {{ $t('homePage.services.flex.title') }}
         </p>
         <div class="block">
-          Wir bieten Ihnen vielseitige Transportlösungen für Ihre eiligen Sendungen. Egal wie kurzfristig Sie handeln
-          müssen, wir bieten Ihnen eine individuell auf Ihre Bedürfnisse zugeschnittene On Board Courier Lösung.
+          {{ $t('homePage.services.flex.subtitle') }}
         </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block7">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="columns mt-5">
+        <div class="columns">
           <div class="column">
-            <div class="button">Jetzt mehr erfahren</div>
+            <a>{{ $t('homePage.services.flex.link') }}</a>
           </div>
         </div>
       </div>
@@ -249,39 +266,14 @@
 
       <div class="column">
         <p class="title">
-          Pro-Active Tracking
+          {{ $t('homePage.services.charter.title') }}
         </p>
         <div class="block">
-          Wir bieten Ihnen vielseitige Transportlösungen für Ihre eiligen Sendungen. Egal wie kurzfristig Sie handeln
-          müssen, wir bieten Ihnen eine individuell auf Ihre Bedürfnisse zugeschnittene On Board Courier Lösung.
+          {{ $t('homePage.services.charter.subtitle') }}
         </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block7">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="columns mt-5">
+        <div class="columns">
           <div class="column">
-            <div class="button">Jetzt mehr erfahren</div>
+            <a>{{ $t('homePage.services.charter.link') }}</a>
           </div>
         </div>
       </div>
@@ -290,31 +282,20 @@
 
   <section class="section">
     <div class="columns">
-      <div class="column is-3">
-        <p class="title is-2">Einsatzbereiche</p>
-      </div>
-      <div class="column"></div>
-    </div>
-    <ServiceTiles class="mt-6" :title="$t('homePage.companyName')" :subtitle="$t('homePage.info')" :tiles="services"/>
-  </section>
-
-  <section class="section">
-    <div class="columns">
-      <div class="column is-3">
-        <p class="title is-2">Sound from our happy Partners</p>
+      <div class="column is-4">
+        <p class="title is-2">{{ $t('homePage.review.title') }}</p>
       </div>
       <div class="column is-3"></div>
-      <div class="column is-4">
+      <div class="column is-3">
         <p class="title is-2">25.000+</p>
-        <p class="subtitle">erfolgreich abgewickelte On-Board Courier Sendungen</p>
+        <p class="subtitle">{{ $t('homePage.review.sub1') }}</p>
       </div>
-      <div class="column is-4">
+      <div class="column is-3">
         <p class="title is-2">25 Jahre+</p>
-        <p class="subtitle">Erfahrung und know how</p>
+        <p class="subtitle">{{ $t('homePage.review.sub2') }}</p>
       </div>
     </div>
     <div class="columns">
-
     </div>
   </section>
 
@@ -325,7 +306,6 @@
 </template>
 
 <script>
-import ServiceTiles from "@/components/ServiceTiles.vue";
 import SlideShow from "@/components/SlideShow.vue";
 import QuestionsSection from "@/components/QuestionsSection.vue";
 import ModalElement from "@/components/ModalElement.vue";
@@ -336,7 +316,6 @@ export default {
     ModalElement,
     QuestionsSection,
     SlideShow,
-    ServiceTiles,
   },
   data() {
     return {
@@ -351,5 +330,25 @@ export default {
 .image {
   width: 23rem;
   height: 25rem;
+}
+
+.about {
+  padding: 1rem;
+}
+
+.icon-container {
+  border-radius: 10px;
+  background-color: #94291157;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.about-icon {
+  height: 30px;
+  width: 30px;
+  color: #942911;
+  margin-top: 1rem;
 }
 </style>

@@ -4,6 +4,10 @@
     <router-view></router-view>
     <ContactHero/>
     <FooterMenu/>
+    <div class="columns mt-3">
+      <div class="column is-9"></div>
+      <div class="column"><p class="subtitle is-7">© @Kawo GmbH powered by Niklas Wollgarten</p></div>
+    </div>
   </div>
 </template>
 

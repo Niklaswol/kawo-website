@@ -1,67 +1,285 @@
 {
   "navbar": {
-    "home": "Home",
-    "services": "Leistungen",
-    "areas": "Einsatzbereiche",
+    "home": "Startseite",
+    "services": {
+      "title": "Leistungen",
+      "obc": "Onboard Kurier",
+      "flex": "Flexible Luftfracht",
+      "charter": "Charterflüge"
+    },
+    "operations": {
+      "title": "Einsatzbereiche",
+      "auto": "AutomobilIndustrie",
+      "comp": "Computer- und Technologiebranche",
+      "avia": "Aviation- und Flugzeugbau"
+    },
     "aboutUs": "Über Uns",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz"
   },
   "homePage": {
-    "title": "Grow your business. We will take care all your logistics",
-    "subtitle": "Today i want to share my exploration about Shipping Landing Page called Cicero. Cicero help everyone who need fast and reliable shipping company. Hope you like it guys!! Thankyou",
+    "title": "Schnelle & Zuverlässige Luftfrachtlösungen – KAWO",
+    "subtitle": "Ihr Partner für maßgeschneiderte Luftfrachtlösungen. Unser erfahrenes Team bietet Ihnen Express On Board Courier (OBC) Services, flexible Luftfrachtoptionen und exklusive Charterflüge – und das weltweit. Mit unserer 24-Stunden-Hotline sind wir immer für Sie da, um Ihre Fracht zeitkritisch und zuverlässig ans Ziel zu bringen.",
     "companyName": "KAWO GMBH",
-    "info": "Der On-Board Courier ist in der Logistikbranche fest etabliert und kommt zum Einsatz wenn herkömmliche Logistikwege versagen. Wir haben uns zum Ziel gesetzt auf jede Ihrer OBC Anfragen schnell und individuell zu reagieren. Wir sind seit 1995 auf den On Board Courier - Handcarry spezialisiert und möchten Ihnen unseren professionellen Service auf den nächsten Seiten näher bringen. Mit unserem Service halten Sie Ihre Liefertermine ein und wenden Sie größere Schäden durch Produktionsausfälle ab. Wir verstehen uns als Dienstleister für Speditionen und Industrie.",
+    "about": {
+      "title": "Ihr Partner für effiziente Luftfrachtlösungen",
+      "text": "KAWO ist Ihr verlässlicher Partner für maßgeschneiderte Luftfrachtlösungen. Seit über 25 Jahren bieten wir weltweit schnelle Express OBC-Services, flexible Luftfracht und exklusive Charterflüge. Mit uns kommen Ihre Sendungen termingerecht und sicher ans Ziel – global und zuverlässig.",
+      "advantages": {
+        "globe": {
+          "title": "Weltweite Präsenz",
+          "text": "Wir versenden Ihre Fracht weltweit und bieten ein nahtloses Netzwerk für die Zustellung an jeden Ort der Welt."
+        },
+        "time": {
+          "title": "Zeitkritische Lösungen",
+          "text": "Unsere Express OBC-Services und flexible Luftfracht ermöglichen schnelle Zustellungen ohne Kompromisse bei der Sicherheit."
+        },
+        "individual": {
+          "title": "Individuelle Beratung",
+          "text": "Unsere erfahrenen Luftfrachtexperten bieten maßgeschneiderte Beratung und Lösungen für Ihre spezifischen Anforderungen."
+        }
+      }
+    },
     "services": {
+      "title": "Luftfrachtexperten für Ihre zeitkritischen Sendungen",
+      "text": "KAWO bietet effiziente und flexible Luftfrachtlösungen, darunter Express On Board Courier (OBC), flexible Luftfracht und exklusive Charterflüge. Mit jahrzehntelanger Erfahrung und einem globalen Netzwerk sind wir Ihr verlässlicher Partner für anspruchsvolle Transportanforderungen.",
       "onboard": {
-        "title": "OBC",
-        "subtitle": "Wir bieten Ihnen individuelle und auf Ihre Bedürfnisse zugeschnittene On-Board Courier Komplettlösungen."
+        "title": "Express OBC – Ihre schnellste Zustellung weltweit",
+        "subtitle": "Unsere Express OBC-Services bieten Ihnen die schnellstmögliche Zustellung Ihrer Sendungen. Ein persönlicher Kurier begleitet Ihre Fracht an Bord des Fluges, um sie direkt zum Empfänger zu bringen. Ob eilige Dokumente oder zeitkritische Güter – bei KAWO haben wir die Lösung für Ihre dringenden Transportanforderungen.",
+        "link": "Erfahren Sie mehr über unsere Express OBC-Services"
       },
       "flex": {
-        "title": "FLEX",
-        "subtitle": "Die Lösung für jede Art von Sendung, jedes Ziel und jedes Budget"
+        "title": "Flexible Luftfracht – Ihre maßgeschneiderte Lösung",
+        "subtitle": "Bei KAWO bieten wir Ihnen individuelle Luftfrachtoptionen für Ihre anspruchsvollen Transportbedürfnisse. Egal ob Teil- oder Vollcharter, Spezialfrachten oder zeitgenaue Lieferungen – unsere flexiblen Luftfrachtlösungen passen sich Ihren Anforderungen an. Vertrauen Sie auf unsere Expertise und unser globales Netzwerk für effiziente und zuverlässige Luftfracht.",
+        "link": "Erfahren Sie mehr über unsere flexiblen Luftfrachtlösungen"
       },
       "charter": {
-        "title": "AIR CHARTER",
-        "subtitle": "Egal ob Cessna, Boeing, Helikopter oder Antonov chartern Sie was Sie wollen"
+        "title": "Exklusive Charterflüge – Ihre optimale Planbarkeit",
+        "subtitle": "Unsere exklusiven Charterflüge bieten Ihnen die volle Flexibilität und Planbarkeit für Ihre wertvollen Sendungen. Reservieren Sie einen kompletten Flug exklusiv für Ihre Fracht – weltweit und termingerecht. Mit KAWO erhalten Sie eine maßgeschneiderte Lösung für Ihre speziellen Logistikherausforderungen und einen zuverlässigen Service von Start bis Ziel.",
+        "link": "Erfahren Sie mehr über unsere exklusiven Charterflüge"
       }
     },
     "contactUs": {
       "title": "KONTAKTIEREN SIE UNS",
-      "subtitle": "Wir sind 24 Stunden, 7 Tage die Woche und 365 Tage im Jahr für Sie im Einsatz.",
-      "email": "Schreiben Sie uns eine Email",
+      "subtitle": "Unser Team ist rund um die Uhr, 7 Tage die Woche und 365 Tage im Jahr für Sie da.",
+      "email": "Senden Sie uns eine E-Mail",
       "block": "Unsere Kuriere sind überall und jederzeit für Sie einsatzbereit."
     },
     "experts": {
-      "title": "DIE EXPERTEN IN EMERGENCY LOGISTICS",
-      "text": "Wir sind seit 1995 auf den On Board Courier - Handcarry spezialisiert und möchten Ihnen unseren professionellen Service auf den nächsten Seiten näher bringen. Mit unserem Service halten Sie Ihre Liefertermine ein und wenden Sie größere Schäden durch Produktionsausfälle ab. Wir verstehen uns als Dienstleister für Speditionen und Industrie. Zu unseren Kunden gehören namhafte Unternehmen aus der Automobil, Aviation und Computer-Industrie. Unsere Auftraggeber kennen uns als seriösen und zuverlässigen Partner der absoluten Kundenschutz gewährt. Die Zufriedenheit unserer Partner gibt uns Recht und so blicken wir nunmehr auf über 25.000 erfolgreich abgewickelte On Board Courier Sendungen, die weltweit sicher und zuverlässig durch unsere Kuriere ihr Ziel erreicht haben. Profitieren auch Sie von unserer langjährigen Erfahrung und „know how“. Bei Fragen stehen wir Ihnen jederzeit unter unserer 24 Stunden Hotline zur Verfügung."
+      "title": "IHR SPEZIALIST FÜR NOTFALLLOGISTIK",
+      "text": "Seit 1995 sind wir auf On Board Courier-Services spezialisiert und möchten Ihnen unseren professionellen Service auf den nächsten Seiten näher bringen. Mit unserem Service halten Sie Ihre Liefertermine ein und vermeiden größere Schäden durch Produktionsausfälle. Wir verstehen uns als Dienstleister für Speditionen und Industrie. Zu unseren Kunden gehören namhafte Unternehmen aus der Automobil-, Aviation- und Computerindustrie. Unsere Auftraggeber kennen uns als seriösen und zuverlässigen Partner, der absoluten Kundenschutz gewährleistet. Die Zufriedenheit unserer Partner gibt uns Recht und so blicken wir nun auf über 25.000 erfolgreich abgewickelte On Board Courier-Sendungen, die weltweit sicher und zuverlässig ihr Ziel erreicht haben. Profitieren auch Sie von unserer langjährigen Erfahrung und Expertise. Bei Fragen stehen wir Ihnen jederzeit unter unserer 24-Stunden-Hotline zur Verfügung."
     },
     "areas": {
+      "title": "Vielseitige Einsatzbereiche unserer Luftfrachtlösungen",
+      "text": "Unsere maßgeschneiderten Luftfrachtdienstleistungen von KAWO finden in einer breiten Palette von Industrien und Einsatzbereichen Anwendung. Egal, ob Automobil, Aviation, Computerindustrie oder andere Branchen – wir bieten Lösungen, die Ihre spezifischen Anforderungen erfüllen.",
       "auto": {
-        "title": "Automotive Parts",
-        "subtitle": "Weltweit so schnell wie möglich an Ihren Zielort und das rund um die Uhr"
+        "title": "Automobilindustrie",
+        "subtitle": "Wir unterstützen die Automobilindustrie mit effizienten Luftfrachtlösungen, um Bauteile, Komponenten und Prototypen termingerecht zu liefern. Beschleunigen Sie Ihre Lieferkette mit unseren maßgeschneiderten Transportdienstleistungen."
       },
-      "logistic": {
-        "title": "Ersatzteillogistik",
-        "subtitle": "Die Lösung für jede Art von Sendung, jedes Ziel und jedes Budget"
+      "comp": {
+        "title": "Computer- und Technologiebranche",
+        "subtitle": "Unsere Expertise in der Luftfahrtindustrie ermöglicht es uns, Flugzeugteile, Ausrüstung und Komponenten zuverlässig zu transportieren. Verlassen Sie sich auf KAWO, um Ihre Fracht sicher in die Luft zu bringen."
       },
-      "proto": {
-        "title": "Prototypen",
-        "subtitle": "Egal ob Cessna, Boeing, Helikopter oder Antonov chartern Sie was Sie wollen"
+      "avia": {
+        "title": "Aviation- und Flugzeugbau",
+        "subtitle": "In der Computer- und Technologiebranche bieten wir maßgeschneiderte Luftfrachtlösungen für empfindliche elektronische Geräte, Hardwarekomponenten und mehr. Maximieren Sie die Effizienz Ihrer Lieferkette mit unseren schnellen und sicheren Transportdienstleistungen."
       }
+    },
+    "review": {
+      "title": "Stimmen unserer zufriedenen Partner",
+      "sub1": "erfolgreiche OBC-Sendungen",
+      "sub2": "Erfahrung und Expertise"
     },
     "questions": {
       "first": {
-        "title": "Welches Notfalllogistikunternehmen ist rund um die Uhr erreichbar?",
-        "answer": "Samedaylogistics ist zu jeder Tages- und Nachtzeit, an 365 Tagen im Jahr für Sie im Einsatz. Kontaktieren Sie uns einfach unter der Notfallhotline +49 (0)6107 5051-25 oder via helpnow@samedaylogistics.de"
+        "title": "Was ist ein Express On Board Courier (OBC)?",
+        "answer": "Ein Express On Board Courier ist ein persönlicher Kurier, der Ihre Fracht direkt an Bord eines Fluges begleitet und sie unmittelbar zum Empfänger bringt. Dies ermöglicht die schnellstmögliche Zustellung ohne Zwischenstopps."
       },
       "second": {
-        "title": "Ist Samedaylogistics auch international vertreten?",
-        "answer": "Samedaylogistics ist auch außerhalb Deutschlands für Sie im Einsatz. Sie können uns auch in Italien, Rumänien, Schweden, Tschechien oder in den USA rund um die Uhr erreichen. Wählen Sie hierfür einfach das entsprechende Land unter unserem Anrufbutton aus."
+        "title": "Welche Vorteile bieten exklusive Charterflüge?",
+        "answer": "Exklusive Charterflüge garantieren Ihnen die vollständige Planbarkeit und Flexibilität für Ihre Sendungen. Ein kompletter Flug wird exklusiv für Ihre Fracht reserviert, um termingerechte Lieferungen weltweit sicherzustellen."
       },
       "third": {
-        "title": "Sie benötigen dringend wichtige Dokumente und wissen nicht wer Ihnen weiterhelfen kann?",
-        "answer": "Dringend benötigte Ware, wie beispielsweise wichtige Dokumente, liefern wir auf dem schnellstmöglichen Weg zu Ihnen. Egal ob die Ware per Straße oder in der Luft befördert werden muss, Samedaylogistics findet eine maßgeschneiderte Logistiklösung für Ihre Anfrage. Informieren Sie sich auf unserer Website gerne näher zu unseren einzelnen Serviceleistungen."
+        "title": "In welchen Branchen bietet KAWO seine Luftfrachtlösungen an?",
+        "answer": "KAWO bedient eine breite Palette von Branchen, darunter die Automobil-, Aviation-, Computerindustrie und viele mehr. Unsere flexiblen Lösungen passen sich den individuellen Anforderungen unterschiedlicher Industrien an."
+      },
+      "fourth": {
+        "title": "Wie kann ich KAWO kontaktieren, wenn ich eine Sendung verfolgen oder buchen möchte?",
+        "answer": "Sie können unser Team über unsere 24-Stunden-Hotline erreichen. Unser engagiertes Team steht Ihnen zur Verfügung, um Ihre Fragen zu beantworten, Sendungen zu verfolgen oder Buchungen vorzunehmen."
+      },
+      "fifth": {
+        "title": "Warum sollte ich mich für KAWO als meinen Luftfrachtpartner entscheiden?",
+        "answer": "KAWO bietet jahrzehntelange Erfahrung, ein globales Netzwerk, maßgeschneiderte Lösungen und einen engagierten Kundenservice. Wir sind bestrebt, Ihre Transportbedürfnisse zu erfüllen und Ihre Fracht sicher und termingerecht ans Ziel zu bringen."
       }
+    }
+  },
+  "OBC-Detail": {
+    "title": "Express On Board Courier (OBC) Service",
+    "subtitle": "Schnellste und sicherste Zustellung Ihrer Sendungen weltweit",
+    "firstText": "Der Express On Board Courier (OBC) Service von KAWO ermöglicht Ihnen den schnellsten und zuverlässigsten weltweiten Versand Ihrer Sendungen. Dieser exklusive Service bietet eine innovative Lösung für dringende Lieferungen. Ein dedizierter Kurier begleitet persönlich Ihre Fracht an Bord eines Fluges und gewährleistet, dass sie ohne Zwischenstopps direkt zum gewünschten Ziel gelangt.",
+    "headlineBold": "Vorteile des Express OBC Services bei KAWO:",
+    "secondText": "Unsere langjährige Erfahrung und unser umfassendes Netzwerk machen den Express OBC Service von KAWO zu einer optimalen Wahl für Ihre dringenden Versandanforderungen. Hier sind einige der Vorteile, die Sie bei der Nutzung unseres Express OBC Services genießen:",
+    "bulletOne": {
+      "title": "Schnelle Zustellung ohne Umwege ",
+      "text": "Mit einem persönlichen Kurier an Bord wird Ihre Sendung direkt zum Empfänger gebracht, ohne Zwischenstopps oder Verzögerungen."
+    },
+    "bulletTwo": {
+      "title": "Echtzeit-Verfolgung ",
+      "text": "Verfolgen Sie den Status Ihrer Sendung in Echtzeit und wissen Sie jederzeit, wo sich Ihre Fracht befindet."
+    },
+    "bulletThree": {
+      "title": "Sicherheit und Schutz ",
+      "text": "Ihr OBC Kurier sorgt dafür, dass Ihre Sendung sicher und geschützt ist. Sie haben die Gewissheit, dass Ihre Fracht in den besten Händen ist."
+    },
+    "lastText": "Mit dem Express On Board Courier (OBC) Service von KAWO können Sie sicher sein, dass Ihre dringenden Sendungen mit höchster Priorität behandelt werden und rechtzeitig ihr Ziel erreichen."
+  },
+  "Flex-Detail": {
+    "title": "Flexible Luftfrachtoptionen - Maßgeschneidert für Ihre Bedürfnisse",
+    "subtitle": "Globale Flexibilität für Ihre Luftfrachtanforderungen",
+    "firstText": "Bei KAWO bieten wir flexible Luftfrachtoptionen, die sich perfekt an Ihre individuellen Transportbedürfnisse anpassen lassen. Unabhängig davon, ob Sie Teilladungen, Vollcharter, empfindliche Güter oder zeitgenaue Lieferungen benötigen, stellen wir sicher, dass Ihre Fracht effizient und zuverlässig ans Ziel gelangt.",
+    "headlineBold": "Vorteile unserer flexiblen Luftfrachtlösungen:",
+    "secondText": "Unsere langjährige Erfahrung und unser umfassendes Netzwerk machen unsere flexiblen Luftfrachtlösungen zu einer optimalen Wahl für Ihre anspruchsvollen Transportanforderungen. Hier sind einige der Vorteile, die Sie bei der Nutzung unserer flexiblen Luftfrachtdienstleistungen genießen:",
+    "bulletOne": {
+      "title": "Anpassungsfähigkeit",
+      "text": "Unsere Lösungen werden auf Ihre Anforderungen zugeschnitten, sei es für spezielle Frachtarten, Lieferzeiten oder Transportbedingungen."
+    },
+    "bulletTwo": {
+      "title": "Globale Abdeckung",
+      "text": "Unser Netzwerk ermöglicht es uns, Ihre Fracht weltweit zu befördern, ohne Kompromisse bei der Sicherheit einzugehen."
+    },
+    "bulletThree": {
+      "title": "Verlässlichkeit",
+      "text": "Unsere jahrzehntelange Erfahrung in der Luftfrachtbranche garantiert, dass Ihre Sendungen termingerecht und sicher ankommen."
+    },
+    "lastText": "Mit den flexiblen Luftfrachtlösungen von KAWO erhalten Sie maßgeschneiderte Dienstleistungen, die Ihre Erwartungen übertreffen."
+  },
+  "Charter-Detail": {
+    "title": "Exklusive Charterflüge - Die ultimative Planbarkeit für Ihre Sendungen",
+    "subtitle": "Reservierte Flüge für Ihre wertvollen Frachtsendungen",
+    "firstText": "Unsere exklusiven Charterflüge bieten Ihnen die ultimative Planbarkeit und Flexibilität für den Versand Ihrer wertvollen Frachtsendungen. Mit einem kompletten Flug, der exklusiv für Ihre Fracht reserviert ist, stellen wir sicher, dass Ihre Lieferungen weltweit und termingerecht ankommen.",
+    "headlineBold": "Vorteile unserer exklusiven Charterflüge:",
+    "secondText": "Unsere langjährige Erfahrung und unser umfassendes Netzwerk machen unsere exklusiven Charterflüge zu einer optimalen Wahl für Ihre maßgeschneiderten Logistikherausforderungen. Hier sind einige der Vorteile, die Sie bei der Nutzung unserer exklusiven Charterflüge genießen:",
+    "bulletOne": {
+      "title": "Ungeteilte Aufmerksamkeit",
+      "text": "Ein vollständig reservierter Flug bedeutet, dass Ihre Fracht die alleinige Priorität hat und keine Verzögerungen durch andere Sendungen auftreten."
+    },
+    "bulletTwo": {
+      "title": "Planbare Lieferzeiten",
+      "text": "Sie bestimmen den Zeitpunkt der Lieferung, um sicherzustellen, dass Ihre Sendung genau dann ankommt, wenn Sie es benötigen."
+    },
+    "bulletThree": {
+      "title": "Maximale Sicherheit",
+      "text": "Ihre Fracht ist während des gesamten Fluges sicher und geschützt, da sie nicht mit anderen Sendungen kombiniert wird."
+    },
+    "lastText": "Mit den exklusiven Charterflügen von KAWO erhalten Sie die ultimative Kontrolle über Ihre Lieferungen und die Gewissheit, dass Ihre wertvollen Sendungen sicher und pünktlich ankommen."
+  },
+  "operations": {
+    "title": "Vielseitige Anwendungen unserer Luftfrachtlösungen",
+    "text" : "Unsere maßgeschneiderten Luftfrachtdienstleistungen von KAWO finden in einer breiten Palette von Industrien und Einsatzbereichen Anwendung. Unsere flexiblen Lösungen passen sich den individuellen Anforderungen unterschiedlicher Branchen an. Entdecken Sie, wie wir in verschiedenen Industrien effiziente Transportlösungen bieten:",
+    "auto": {
+      "title": "Automobilindustrie",
+      "text": "Die Automobilindustrie erfordert präzise und termingerechte Lieferungen von Bauteilen, Komponenten und Prototypen. Bei KAWO unterstützen wir diese Anforderungen mit effizienten Luftfrachtlösungen, die Ihre Lieferkette beschleunigen und Ihnen helfen, wichtige Meilensteine zu erreichen.",
+      "link": "Erfahren Sie mehr über unsere Lösungen für die Automobilindustrie"
+    },
+    "comp": {
+      "title": "Computer- und Technologiebranche",
+      "text": "In der Computer- und Technologiebranche sind empfindliche elektronische Geräte, Hardwarekomponenten und mehr zuverlässig und sicher zu transportieren. Unsere Expertise in der Luftfrachtindustrie ermöglicht es uns, diese anspruchsvollen Anforderungen zu erfüllen und schnelle Lieferungen sicherzustellen.",
+      "link": "Entdecken Sie unsere Transportlösungen für die Computer- und Technologiebranche"
+    },
+    "avia": {
+      "title": "Aviation- und Flugzeugbau",
+      "text": "Die Luftfahrt- und Flugzeugbauindustrie erfordert spezialisierte Logistiklösungen für Flugzeugteile, Ausrüstung und Komponenten. Mit unserem Know-how und einem globalen Netzwerk bieten wir maßgeschneiderte Transportdienstleistungen, um die Effizienz Ihrer Lieferkette zu maximieren.",
+      "link": "Erfahren Sie, wie wir die Anforderungen der Aviation- und Flugzeugbauindustrie erfüllen"
+    }
+  },
+  "Auto-Detail": {
+    "title": "Automobilindustrie",
+    "subtitle": "Effiziente Luftfrachtlösungen für Bauteile und Komponenten",
+    "firstText": "In der anspruchsvollen Automobilbranche sind pünktliche Lieferungen von Bauteilen, Komponenten und Prototypen von entscheidender Bedeutung. Bei KAWO verstehen wir die einzigartigen Anforderungen der Automobilindustrie und bieten maßgeschneiderte Luftfrachtlösungen, um sicherzustellen, dass Ihre Lieferkette reibungslos funktioniert.",
+    "headlineBold": "Vorteile der Luftfrachtlösungen von KAWO für die Automobilbranche:",
+    "secondText": "Mit unserer Expertise in der Notfalllogistik und unserem Engagement für termingerechte Lieferungen sind wir darauf spezialisiert, Bauteile und Komponenten rechtzeitig zu liefern, um Produktionsausfälle zu vermeiden. Unsere Luftfrachtexperten arbeiten eng mit Ihnen zusammen, um individuelle Transportlösungen zu entwickeln, die genau auf Ihre Bedürfnisse zugeschnitten sind. Ob es sich um eilige Lieferungen von Prototypen handelt oder um den Transport empfindlicher Komponenten",
+    "bulletOne": {
+      "title": "Pünktliche Lieferungen",
+      "text": "Unser Express OBC Service ermöglicht es Ihnen, Bauteile und Komponenten schnell und zuverlässig zu liefern, um Produktionspläne einzuhalten."
+    },
+    "bulletTwo": {
+      "title": "Flexibilität",
+      "text": "Wir bieten flexible Luftfrachtoptionen, um sich den wechselnden Bedürfnissen der Automobilindustrie anzupassen."
+    },
+    "bulletThree": {
+      "title": "Globales Netzwerk",
+      "text": "Unser weltweites Netzwerk ermöglicht es uns, Lieferungen zuverlässig an jeden Ort der Welt zu bringen."
+    },
+    "lastText": "Verlassen Sie sich auf KAWO, um Ihre Lieferkette zu unterstützen und sicherzustellen, dass Ihre Bauteile und Komponenten termingerecht und sicher ankommen. Kontaktieren Sie uns für weitere Informationen über unsere maßgeschneiderten Luftfrachtlösungen für die Automobilbranche."
+  },
+  "Comp-Detail": {
+    "title": "Computer- und Technologiebranche",
+    "subtitle": "Sichere Luftfrachtlösungen für empfindliche elektronische Geräte und Hardwarekomponenten",
+    "firstText": "Die Computer- und Technologiebranche erfordert präzise und sichere Transportlösungen für empfindliche elektronische Geräte, Flugzeugteile und Hardwarekomponenten. Bei KAWO verstehen wir die Bedeutung dieser Lieferungen und bieten maßgeschneiderte Luftfrachtlösungen, um sicherzustellen, dass Ihre Waren sicher und termingerecht ankommen.",
+    "headlineBold": "Vorteile der Luftfrachtlösungen von KAWO für die Computer- und Technologiebranche:",
+    "secondText": "Mit unserer Expertise in der Luftfahrtindustrie bieten wir sichere und zuverlässige Transportdienstleistungen, um Ihre empfindlichen Waren sicher in die Luft zu bringen.\n\nUnsere Luftfrachtexperten arbeiten eng mit Ihnen zusammen, um individuelle Transportlösungen zu entwickeln, die den besonderen Anforderungen der Computer- und Technologiebranche gerecht werden. Egal, ob es sich um den Transport von Flugzeugteilen, Ausrüstung oder Hardwarekomponenten handelt",
+    "bulletOne": {
+      "title": "Sichere Transporte",
+      "text": "Unsere Luftfrachtlösungen gewährleisten den sicheren Transport Ihrer empfindlichen elektronischen Geräte und Hardwarekomponenten."
+    },
+    "bulletTwo": {
+      "title": "Expertise",
+      "text": "Mit unserer Erfahrung in der Luftfahrtindustrie können Sie sich darauf verlassen, dass Ihre Waren professionell transportiert werden."
+    },
+    "bulletThree": {
+      "title": "Globales Netzwerk",
+      "text": "Unser weltweites Netzwerk ermöglicht es uns, Ihre Waren sicher an jeden Ort der Welt zu bringen und dies nach Ihren Anforderungen."
+    },
+    "lastText": "Vertrauen Sie KAWO, um Ihre Waren sicher und zuverlässig zu transportieren und Ihre Lieferkette zu optimieren. Kontaktieren Sie uns für weitere Informationen über unsere maßgeschneiderten Luftfrachtlösungen für die Computer- und Technologiebranche."
+  },
+  "Avia-Detail": {
+    "title": "Aviation- und Flugzeugbau",
+    "subtitle": "Effiziente Transportlösungen für Flugzeugteile und Komponenten",
+    "firstText": "In der Aviation- und Flugzeugbauindustrie sind schnelle und sichere Transportlösungen für Flugzeugteile, Ausrüstung und Komponenten von entscheidender Bedeutung. Bei KAWO verstehen wir die Herausforderungen dieser Industrie und bieten maßgeschneiderte Luftfrachtlösungen, um sicherzustellen, dass Ihre Flugzeugteile sicher und termingerecht ankommen.",
+    "headlineBold": "Vorteile der Luftfrachtlösungen von KAWO für die Aviation- und Flugzeugbauindustrie:",
+    "secondText": "Mit unserer Expertise in der Luftfracht bieten wir schnelle und sichere Transportdienstleistungen, um sicherzustellen, dass Ihre Flugzeugteile reibungslos geliefert werden.\n\nUnsere Luftfrachtexperten arbeiten eng mit Ihnen zusammen, um individuelle Transportlösungen zu entwickeln, die den speziellen Anforderungen der Aviation- und Flugzeugbauindustrie entsprechen. Ob es sich um Flugzeugteile, Ausrüstung oder Komponenten handelt.",
+    "bulletOne": {
+      "title": "Schnelle Lieferungen",
+      "text": "Unsere Luftfrachtlösungen gewährleisten schnelle und termingerechte Lieferungen Ihrer Flugzeugteile und Komponenten."
+    },
+    "bulletTwo": {
+      "title": "Sicherheit",
+      "text": "Mit unserer Expertise in der Luftfahrtindustrie können Sie sich darauf verlassen, dass Ihre Waren sicher und professionell transportiert werden."
+    },
+    "bulletThree": {
+      "title": "Globales Netzwerk",
+      "text": "Unser weltweites Netzwerk ermöglicht es uns, Ihre Flugzeugteile sicher an jeden Ort der Welt zu bringen."
+    },
+    "lastText": "Verlassen Sie sich auf KAWO, um Ihre Flugzeugteile sicher und zuverlässig zu transportieren und Ihre Lieferkette zu optimieren. Kontaktieren Sie uns für weitere Informationen über unsere maßgeschneiderten Luftfrachtlösungen für die Aviation- und Flugzeugbauindustrie."
+  },
+  "aboutUs": {
+    "pres": {
+      "title": "Willkommen bei KAWO",
+      "text": "Ihrem verlässlichen Partner für maßgeschneiderte Luftfrachtlösungen. Mit über 25 Jahren Erfahrung bieten wir weltweit innovative und zuverlässige Transportlösungen. Unsere Expertise ermöglicht flexible und effiziente Services, die Ihre Fracht termingerecht und sicher ans Ziel bringen. Vertrauen Sie auf unser globales Netzwerk und herausragenden Service für Ihre Logistikanforderungen."
+    },
+    "success": {
+      "title": "Unsere Erfolgsgeschichte",
+      "text": "Die Geschichte von KAWO begann vor über zwei Jahrzehnten mit dem Ziel, erstklassige Luftfrachtlösungen anzubieten. Seit unserer Gründung haben wir uns kontinuierlich weiterentwickelt und sind stolz darauf, mehr als 25.000 erfolgreiche Sendungen weltweit abgewickelt zu haben. Jede Lieferung war eine Gelegenheit, unsere Expertise zu zeigen und Vertrauen aufzubauen. Heute sind wir stolz darauf, unsere Kunden in verschiedenen Branchen zu unterstützen und innovative Lösungen für ihre anspruchsvollsten Transportanforderungen zu bieten."
+    },
+    "values": {
+      "title": "Unsere Unternehmenswerte",
+      "text": "Bei KAWO leben wir nach klaren Unternehmenswerten. Verlässlichkeit, Integrität und Kundenzufriedenheit sind die Grundpfeiler unserer Arbeit. Wir setzen auf eine Kultur der Innovation und kontinuierlichen Verbesserung, um sicherzustellen, dass wir immer die besten Lösungen für unsere Kunden bieten. Unsere Leidenschaft für Logistik treibt uns dazu an, herausragende Dienstleistungen zu erbringen, die unsere Kunden immer wieder beeindrucken."
+    },
+    "mission": {
+      "title": "Unsere Mission und Vision",
+      "text": "Unsere Mission bei KAWO ist es, die Art und Weise, wie Fracht transportiert wird, zu revolutionieren. Wir streben danach, der führende Anbieter von Luftfrachtlösungen zu sein, der innovative und flexible Services bietet, die die Erwartungen unserer Kunden übertreffen. Unsere Vision ist es, die logistischen Herausforderungen unserer Kunden in einer sich ständig verändernden Welt zu meistern und ihnen dabei zu helfen, ihre Ziele zu erreichen."
+    },
+    "team": {
+      "title": "Unser Expertenteam",
+      "text": "Bei KAWO haben wir ein Team von Luftfrachtexperten, das sich der Bereitstellung exzellenter Services verschrieben hat. Unser Führungsteam verfügt über langjährige Erfahrung in der Branche und bringt eine Vielzahl von Fachkenntnissen mit. Wir glauben, dass unser Team der Schlüssel zu unserem Erfolg ist und stolz darauf, gemeinsam an innovativen Lösungen für unsere Kunden zu arbeiten."
+    },
+    "partners": {
+      "title": "Starke Partnerschaften",
+      "text": "Wir schätzen unsere Partnerschaften mit unseren Kunden, Lieferanten und Kooperationspartnern. Durch enge Zusammenarbeit und Vertrauen sind wir in der Lage, erstklassige Dienstleistungen zu erbringen und gemeinsam Erfolg zu feiern. Unsere langjährigen Partnerschaften sind ein Beweis für unser Engagement für Qualität und Exzellenz."
+    },
+    "commitments": {
+      "title": "Unsere Verpflichtung",
+      "text": "Bei KAWO sind wir verpflichtet, unsere Kunden mit den besten Luftfrachtlösungen zu versorgen. Wir setzen auf höchste Qualitätsstandards, um sicherzustellen, dass Ihre Fracht termingerecht und sicher geliefert wird. Unser Engagement für hervorragenden Service spiegelt sich in jedem Aspekt unserer Arbeit wider, und wir sind stolz darauf, Ihr zuverlässiger Partner für Logistik zu sein."
     }
   }
 }

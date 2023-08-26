@@ -1,40 +1,104 @@
 {
   "navbar": {
     "home": "Home",
-    "services": "Products",
-    "areas": "Operational Fields",
+    "services": "Services",
+    "areas": "Areas",
     "aboutUs": "About Us",
     "contact": "Contact"
   },
   "homePage": {
-    "title": "Grow your business. We will take care all your logistics",
-    "subtitle": "Today i want to share my exploration about Shipping Landing Page called Cicero. Cicero help everyone who need fast and reliable shipping company. Hope you like it guys!! Thankyou",
-    "companyName": "KAWO GMBH",
-    "info": "The On Board Courier is firmly established in the logistics industry and is used when conventional logistics routes fail. We have set ourselves the goal to respond quickly and individually to each of your OBC requests. We are specialized in On Board Courier - Handcarry since 1995 and would like to introduce you to our professional service on the following pages. With our service you will keep your delivery dates and avert bigger damages caused by production losses. We see ourselves as a service provider for forwarding companies and industry.",
+    "title": "Fast & Reliable Air Freight Solutions – KAWO",
+    "subtitle": "Your partner for tailored air freight solutions. Our experienced team offers Express On Board Courier (OBC) services, flexible air freight options, and exclusive charter flights – worldwide. With our 24-hour hotline, we're always here to deliver your cargo on time and reliably.",
+    "companyName": "KAWO GmbH",
+    "about": {
+      "title": "Your Partner for Efficient Air Freight Solutions",
+      "text": "KAWO is your dependable partner for customized air freight solutions. For over 25 years, we've been providing fast worldwide Express OBC services, flexible air freight, and exclusive charter flights. With us, your shipments arrive on schedule and securely – globally and reliably.",
+      "advantages": {
+        "globe": {
+          "title": "Global Presence",
+          "text": "We ship your cargo worldwide and provide a seamless network for delivery to any location in the world."
+        },
+        "time": {
+          "title": "Time-Critical Solutions",
+          "text": "Our Express OBC services and flexible air freight enable fast deliveries without compromising on security."
+        },
+        "individual": {
+          "title": "Personalized Consultation",
+          "text": "Our experienced air freight experts offer tailored advice and solutions for your own specific requirements."
+        }
+      }
+    },
     "services": {
+      "title": "Air Freight Experts for Your Time-Critical Shipments",
+      "text": "KAWO offers efficient and flexible air freight solutions, including Express On Board Courier (OBC), flexible air freight, and exclusive charter flights. With decades of experience and a global network, we're your reliable partner for demanding transportation needs.",
       "onboard": {
-        "title": "OBC",
-        "subtitle": "Worldwide as fast as possible to your destination and around the clock"
+        "title": "Express OBC – Your Fastest Global Delivery",
+        "subtitle": "Our Express OBC services provide you with the fastest possible delivery of your shipments. A personal courier accompanies your cargo on board the flight to deliver it directly to the recipient. Whether it's urgent documents or time-critical goods – at KAWO, we have the solution for your urgent transportation needs.",
+        "link": "Learn more about our Express OBC services"
       },
       "flex": {
-        "title": "FLEX",
-        "subtitle": "The solution for every type of shipment, every destination and every budget"
+        "title": "Flexible Air Freight – Your Tailored Solution",
+        "subtitle": "At KAWO, we offer individual air freight options to meet your demanding transportation needs. Whether it's partial or full charter, special cargo, or precise deliveries – our flexible air freight solutions adapt to your requirements. Trust our expertise and global network for efficient and reliable air freight.",
+        "link": "Learn more about our flexible air freight solutions"
       },
       "charter": {
-        "title": "AIR CHARTER",
-        "subtitle": "No matter if Cessna, Boeing, Helicopter or Antonov charter what you want"
+        "title": "Exclusive Charter Flights – Your Optimal Planning",
+        "subtitle": "Our exclusive charter flights provide you with complete flexibility and planning for your valuable shipments. Reserve an entire flight exclusively for your cargo – worldwide and on schedule. With KAWO, you'll receive a tailored solution for your specific logistics challenges and a reliable service from start to finish.",
+        "link": "Learn more about our exclusive charter flights"
       }
     },
     "contactUs": {
       "title": "CONTACT US",
-      "subtitle": "We are at your service 24 hours a day, 7 days a week, 365 days a year",
-      "email": "Send us an email",
-      "block": "Our couriers are ready to work for you anywhere, anytime."
+      "subtitle": "Our team is available 24/7, 365 days a year.",
+      "email": "Send us an Email",
+      "block": "Our couriers are ready for you everywhere and anytime."
     },
     "experts": {
-      "title": "THE EXPERTS IN EMERGENCY LOGISTICS",
-      "text": "We are specialized in On Board Courier - Handcarry since 1995 and we would like to introduce you our professional service on the next pages. With our service you will keep your delivery dates and avert bigger damages caused by production losses. We see ourselves as a service provider for forwarding agencies and industry. Our customers include well-known companies from the automotive, aviation and computer industries. Our clients know us as a serious and reliable partner who guarantees absolute customer protection. The satisfaction of our partners proves us right and so we can now look back on more than 25,000 successfully handled On Board Courier shipments, which have reached their destination worldwide safely and reliably by our couriers. You too can benefit from our many years of experience and know how. If you have any questions, we are always available on our 24-hour hotline."
+      "title": "YOUR SPECIALIST IN EMERGENCY LOGISTICS",
+      "text": "Since 1995, we have specialized in On Board Courier services and would like to introduce our professional service to you on the following pages. With our service, you meet your delivery deadlines and avoid major damages due to production downtimes. We see ourselves as a service provider for forwarding companies and industry. Our customers include well-known companies from the automotive, aviation, and computer industries. Our clients know us as a reliable partner that ensures absolute customer protection. The satisfaction of our partners confirms us, and now we look back on over 25,000 successfully processed On Board Courier shipments that have reached their destination safely and reliably worldwide. Benefit from our many years of experience and know-how. We are always available for your questions through our 24-hour hotline."
+    },
+    "areas": {
+      "title": "Diverse Applications of Our Air Freight Solutions",
+      "text": "Our customized air freight services from KAWO are used in a wide range of industries and areas. Whether it's automotive, aviation, computer industry, or other sectors – we offer solutions that meet your specific requirements.",
+      "auto": {
+        "title": "Automotive Industry",
+        "subtitle": "We support the automotive industry with efficient air freight solutions to deliver parts, components, and prototypes on time. Accelerate your supply chain with our tailored transportation services."
+      },
+      "comp": {
+        "title": "Computer and Technology Sector",
+        "subtitle": "Our expertise in the aviation industry allows us to reliably transport aircraft parts, equipment, and components. Count on KAWO to safely take your cargo into the air."
+      },
+      "avia": {
+        "title": "Aviation and Aircraft Construction",
+        "subtitle": "In the computer and technology sector, we offer customized air freight solutions for sensitive electronic devices, hardware components, and more. Maximize the efficiency of your supply chain with our fast and secure transportation services."
+      }
+    },
+    "review": {
+      "title": "Voices of Our Satisfied Partners",
+      "sub1": "Successful OBC Shipments",
+      "sub2": "Experience and Expertise"
+    },
+    "questions": {
+      "first": {
+        "title": "What is an Express On Board Courier (OBC)?",
+        "answer": "An Express On Board Courier is a personal courier who accompanies your cargo directly on board a flight and delivers it to the recipient immediately, allowing for the fastest possible delivery without intermediate stops."
+      },
+      "second": {
+        "title": "What are the benefits of exclusive charter flights?",
+        "answer": "Exclusive charter flights guarantee you complete planning and flexibility for your shipments. A complete flight is reserved exclusively for your cargo to ensure timely deliveries worldwide."
+      },
+      "third": {
+        "title": "In which industries does KAWO provide its air freight solutions?",
+        "answer": "KAWO serves a wide range of industries, including the automotive, aviation, computer industry, and many more. Our flexible solutions adapt to the specific requirements of different industries."
+      },
+      "fourth": {
+        "title": "How can I contact KAWO if I want to track or book a shipment?",
+        "answer": "You can reach our team through our 24-hour hotline. Our dedicated team is available to answer your questions, track shipments, or make bookings."
+      },
+      "fifth": {
+        "title": "Why should I choose KAWO as my air freight partner?",
+        "answer": "KAWO offers decades of experience, a global network, customized solutions, and dedicated customer service. We are committed to meeting your transportation needs and delivering your cargo safely and on time."
+      }
     }
   }
 }
-

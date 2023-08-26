@@ -1,14 +1,13 @@
 <template>
-  <section class="hero is-medium mt-5">
-    <div class="img is-relative has-text-centered">
-      <div class="image-container">
-        <img class="header" :src="require(`../assets/Plane1.jpg`)" alt="slide-show-image">
-      </div>
-      <div class="overlay">
-        <div class="centered">
-          <p class="title is-1 has-text-white">UNSERE LEISTUNGEN - SIND IHRE LÖSUNGEN</p>
-          <p class="subtitle has-text-white">Wir machen scheinbar Unmögliches möglich!</p>
+  <section class="hero has-text-centered">
+    <div class="hero-body">
+      <div class="columns">
+        <div class="column"></div>
+        <div class="column is-7">
+          <p class="title is-2">{{ $t('operations.title') }}</p>
+          <div class="block">{{ $t('operations.text') }}</div>
         </div>
+        <div class="column"></div>
       </div>
     </div>
   </section>
@@ -16,48 +15,73 @@
   <section class="section">
     <div class="columns">
       <div class="column">
-        <figure class="image">
-          <img src="../assets/Plane1.jpg" alt="Placeholder image">
-        </figure>
+        <div class="card about">
+          <div class="card-content">
+            <div class="columns">
+              <div class="column">
+                <p class="subtitle is-5">From</p>
+                <p class="title is-5">Frankfurt</p>
+              </div>
+              <div class="column">
+                <faIcon icon="arrow-right-arrow-left"></faIcon>
+              </div>
+              <div class="column">
+                <p class="subtitle is-5">Destination</p>
+                <p class="title is-5">New York</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-content">
+            <div class="columns">
+              <div class="column">
+                <p class="title is-5">SHIP-097643</p>
+              </div>
+              <div class="column has-text-right">
+                <p class="subtitle is-5">KAWO GmbH</p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <ul class="steps is-vertical">
+                  <li class="steps-segment">
+                    <span href="#" class="steps-marker">1</span>
+                    <div class="steps-content">
+                      <p class="is-size-5">Depart From Frankfurt</p>
+                    </div>
+                  </li>
+                  <li class="steps-segment">
+                    <span href="#" class="steps-marker">2</span>
+                    <div class="steps-content">
+                      <p class="is-size-5">Arrive in New York</p>
+                    </div>
+                  </li>
+                  <li class="steps-segment">
+                    <span class="steps-marker">3</span>
+                    <div class="steps-content">
+                      <p class="is-size-5">Package devlivered</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="column is-1"></div>
 
       <div class="column">
         <p class="title">
-          Pro-Active Tracking
+          {{ $t('operations.auto.title') }}
         </p>
         <div class="block">
-          Wir bieten Ihnen vielseitige Transportlösungen für Ihre eiligen Sendungen. Egal wie kurzfristig Sie handeln
-          müssen, wir bieten Ihnen eine individuell auf Ihre Bedürfnisse zugeschnittene On Board Courier Lösung.
+          {{ $t('operations.auto.text') }}
         </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block7">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="columns mt-5">
+        <div class="columns">
           <div class="column">
-            <div class="button">Jetzt mehr erfahren</div>
+            <a>{{ $t('operations.auto.link') }}</a>
           </div>
         </div>
       </div>
@@ -66,51 +90,25 @@
 
   <section class="section">
     <div class="columns">
-
       <div class="column">
         <p class="title">
-          Pro-Active Tracking
+          {{ $t('operations.comp.title') }}
         </p>
         <div class="block">
-          Wir bieten Ihnen vielseitige Transportlösungen für Ihre eiligen Sendungen. Egal wie kurzfristig Sie handeln
-          müssen, wir bieten Ihnen eine individuell auf Ihre Bedürfnisse zugeschnittene On Board Courier Lösung.
+          {{ $t('operations.comp.text') }}
         </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block7">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="columns mt-5">
+        <div class="columns">
           <div class="column">
-            <div class="button">Jetzt mehr erfahren</div>
+            <a>{{ $t('operations.comp.link') }}</a>
           </div>
         </div>
       </div>
 
-      <div class="column is-1"></div>
+      <div class="column is-3"></div>
 
       <div class="column">
         <figure class="image">
-          <img src="../assets/Plane1.jpg" alt="Placeholder image">
+          <img src="../assets/Fotolia_39448239_M.jpg" alt="Placeholder image">
         </figure>
       </div>
     </div>
@@ -119,48 +117,73 @@
   <section class="section">
     <div class="columns">
       <div class="column">
-        <figure class="image">
-          <img src="../assets/Plane1.jpg" alt="Placeholder image">
-        </figure>
+        <div class="card">
+          <div class="card-content">
+            <div class="columns">
+              <div class="column">
+                <p class="subtitle is-5">From</p>
+                <p class="title is-5">Frankfurt</p>
+              </div>
+              <div class="column">
+                <faIcon icon="arrow-right-arrow-left"></faIcon>
+              </div>
+              <div class="column">
+                <p class="subtitle is-5">Destination</p>
+                <p class="title is-5">New York</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-content">
+            <div class="columns">
+              <div class="column">
+                <p class="title is-5">SHIP-097643</p>
+              </div>
+              <div class="column has-text-right">
+                <p class="subtitle is-5">KAWO GmbH</p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <ul class="steps is-vertical">
+                  <li class="steps-segment">
+                    <span href="#" class="steps-marker">1</span>
+                    <div class="steps-content">
+                      <p class="is-size-5">Depart From Frankfurt</p>
+                    </div>
+                  </li>
+                  <li class="steps-segment">
+                    <span href="#" class="steps-marker">2</span>
+                    <div class="steps-content">
+                      <p class="is-size-5">Arrive in New York</p>
+                    </div>
+                  </li>
+                  <li class="steps-segment">
+                    <span class="steps-marker">3</span>
+                    <div class="steps-content">
+                      <p class="is-size-5">Package devlivered</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="column is-1"></div>
 
       <div class="column">
         <p class="title">
-          Pro-Active Tracking
+          {{ $t('operations.avia.title') }}
         </p>
         <div class="block">
-          Wir bieten Ihnen vielseitige Transportlösungen für Ihre eiligen Sendungen. Egal wie kurzfristig Sie handeln
-          müssen, wir bieten Ihnen eine individuell auf Ihre Bedürfnisse zugeschnittene On Board Courier Lösung.
+          {{ $t('operations.avia.text') }}
         </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="block7">
-          <span class="icon-text">
-            <span class="icon">
-              <faIcon icon="arrow-circle-right"></faIcon>
-            </span>
-            <span>Schnelle Lieferung</span>
-          </span>
-        </div>
-        <div class="columns mt-5">
+        <div class="columns">
           <div class="column">
-            <div class="button">Jetzt mehr erfahren</div>
+            <a>{{ $t('operations.avia.link') }}</a>
           </div>
         </div>
       </div>
@@ -169,26 +192,12 @@
 </template>
 
 <script>
+
 export default {
-  name: 'OperationsPage',
+  name: 'ServicesPage',
+  components: {},
 }
 </script>
 
 <style scoped>
-.header {
-  max-height: 25rem;
-  width: 100% !important;
-  object-fit: cover;
-  object-position: center;
-}
-
-.overlay {
-  position: absolute;
-  background: #00120B80;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  inset: 0;
-  max-height: 98.5% !important;
-}
 </style>
