@@ -8,7 +8,7 @@
 
   <section class="section">
     <figure class="image">
-      <img src="../assets/Plane2.jpeg" alt="Placeholder image">
+      <img src="../assets/packages-plane.jpg" alt="Placeholder image">
     </figure>
   </section>
 
@@ -91,6 +91,7 @@ export default {
 </script>
 
 <style scoped>
+
 .icon-container {
   border-radius: 10px;
   background-color: #94291157;

@@ -6,7 +6,7 @@
       <img class="slide" src="../assets/Plane1.jpg" alt="slide-show-image">
     </SplideSlide>
     <SplideSlide>
-      <img class="slide" src="../assets/Plane1.jpg" alt="slide-show-image">
+      <img class="slide" src="../assets/plane-air.jpg" alt="slide-show-image">
     </SplideSlide>
   </Splide>
 </template>

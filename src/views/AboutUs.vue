@@ -17,7 +17,7 @@
 
       <div class="column">
         <figure class="image">
-          <img src="../assets/Plane1.jpg" alt="Placeholder image">
+          <img src="../assets/plane-bottom.jpg" alt="Placeholder image">
         </figure>
       </div>
 
@@ -30,29 +30,11 @@
         <div class="block">
           {{ $t('aboutUs.success.text') }}
         </div>
-      </div>
 
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="columns">
-
-      <div class="column">
-        <p class="title">
-          {{ $t('aboutUs.values.title') }}
-        </p>
         <div class="block">
           {{ $t('aboutUs.values.text') }}
         </div>
-      </div>
 
-      <div class="column is-1"></div>
-
-      <div class="column">
-        <figure class="image">
-          <img src="../assets/Plane1.jpg" alt="Placeholder image">
-        </figure>
       </div>
 
     </div>
@@ -60,14 +42,6 @@
 
   <section class="section">
     <div class="columns">
-
-      <div class="column">
-        <figure class="image">
-          <img src="../assets/Plane1.jpg" alt="Placeholder image">
-        </figure>
-      </div>
-
-      <div class="column is-1"></div>
 
       <div class="column">
         <p class="title">
@@ -76,18 +50,7 @@
         <div class="block">
           {{ $t('aboutUs.mission.text') }}
         </div>
-      </div>
 
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="columns">
-
-      <div class="column">
-        <p class="title">
-          {{ $t('aboutUs.team.title') }}
-        </p>
         <div class="block">
           {{ $t('aboutUs.team.text') }}
         </div>
@@ -97,7 +60,7 @@
 
       <div class="column">
         <figure class="image">
-          <img src="../assets/Plane1.jpg" alt="Placeholder image">
+          <img src="../assets/plane-keyboard.jpg" alt="Placeholder image">
         </figure>
       </div>
 
@@ -109,7 +72,7 @@
 
       <div class="column">
         <figure class="image">
-          <img src="../assets/Plane1.jpg" alt="Placeholder image">
+          <img src="../assets/plane-front-cargo.jpg" alt="Placeholder image">
         </figure>
       </div>
 
@@ -122,29 +85,10 @@
         <div class="block">
           {{ $t('aboutUs.partners.text') }}
         </div>
-      </div>
 
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="columns">
-
-      <div class="column">
-        <p class="title">
-          {{ $t('aboutUs.commitments.title') }}
-        </p>
         <div class="block">
           {{ $t('aboutUs.commitments.text') }}
         </div>
-      </div>
-
-      <div class="column is-1"></div>
-
-      <div class="column">
-        <figure class="image">
-          <img src="../assets/Plane1.jpg" alt="Placeholder image">
-        </figure>
       </div>
 
     </div>

@@ -38,15 +38,6 @@
           </div>
         </div>
 
-        <div class="navbar-item has-dropdown is-hoverable">
-          <router-link class="navbar-item" to="/operations"> {{ $t("navbar.operations.title") }}</router-link>
-          <div class="navbar-dropdown">
-            <router-link class="navbar-item" to="/operations/auto"> {{ $t("navbar.operations.auto") }}</router-link>
-            <router-link class="navbar-item" to="/operations/comp"> {{ $t("navbar.operations.comp") }}</router-link>
-            <router-link class="navbar-item" to="/operations/avia"> {{ $t("navbar.operations.avia") }}</router-link>
-          </div>
-        </div>
-
         <router-link class="navbar-item" to="/about-us"> {{ $t("navbar.aboutUs") }}</router-link>
         <router-link class="navbar-item" to="/contact"> {{ $t("navbar.contact") }}</router-link>
       </div>

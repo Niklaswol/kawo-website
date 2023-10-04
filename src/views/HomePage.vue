@@ -162,7 +162,7 @@
 
       <div class="column is-1"></div>
 
-      <div class="column">
+      <div class="column mt-6">
         <p class="title">
           {{ $t('homePage.services.onboard.title') }}
         </p>
@@ -180,7 +180,7 @@
 
   <section class="section">
     <div class="columns">
-      <div class="column">
+      <div class="column mt-6">
         <p class="title">
           {{ $t('homePage.services.flex.title') }}
         </p>
@@ -198,7 +198,7 @@
 
       <div class="column">
         <figure class="image">
-          <img src="../assets/Fotolia_39448239_M.jpg" alt="Placeholder image">
+          <img src="../assets/globe.jpg" alt="Placeholder image">
         </figure>
       </div>
     </div>
@@ -207,64 +207,14 @@
   <section class="section">
     <div class="columns">
       <div class="column">
-        <div class="card">
-          <div class="card-content">
-            <div class="columns">
-              <div class="column">
-                <p class="subtitle is-5">From</p>
-                <p class="title is-5">Frankfurt</p>
-              </div>
-              <div class="column">
-                <faIcon icon="arrow-right-arrow-left"></faIcon>
-              </div>
-              <div class="column">
-                <p class="subtitle is-5">Destination</p>
-                <p class="title is-5">New York</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mt-3">
-          <div class="card-content">
-            <div class="columns">
-              <div class="column">
-                <p class="title is-5">SHIP-097643</p>
-              </div>
-              <div class="column has-text-right">
-                <p class="subtitle is-5">KAWO GmbH</p>
-              </div>
-            </div>
-            <div class="columns">
-              <div class="column">
-                <ul class="steps is-vertical">
-                  <li class="steps-segment">
-                    <span href="#" class="steps-marker">1</span>
-                    <div class="steps-content">
-                      <p class="is-size-5">Depart From Frankfurt</p>
-                    </div>
-                  </li>
-                  <li class="steps-segment">
-                    <span href="#" class="steps-marker">2</span>
-                    <div class="steps-content">
-                      <p class="is-size-5">Arrive in New York</p>
-                    </div>
-                  </li>
-                  <li class="steps-segment">
-                    <span class="steps-marker">3</span>
-                    <div class="steps-content">
-                      <p class="is-size-5">Package devlivered</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+        <figure class="image" style="width: 650px">
+          <img src="../assets/charter.jpg" alt="Placeholder image">
+        </figure>
       </div>
 
       <div class="column is-1"></div>
 
-      <div class="column">
+      <div class="column mt-6">
         <p class="title">
           {{ $t('homePage.services.charter.title') }}
         </p>

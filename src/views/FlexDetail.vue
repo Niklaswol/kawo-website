@@ -8,7 +8,7 @@
 
   <section class="section">
     <figure class="image">
-      <img src="../assets/Plane2.jpeg" alt="Placeholder image">
+      <img src="../assets/freight.jpg" alt="Placeholder image">
     </figure>
   </section>
 
