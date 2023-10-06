@@ -7,12 +7,6 @@
       "flex": "Flexible Luftfracht",
       "charter": "Charterflüge"
     },
-    "operations": {
-      "title": "Einsatzbereiche",
-      "auto": "AutomobilIndustrie",
-      "comp": "Computer- und Technologiebranche",
-      "avia": "Aviation- und Flugzeugbau"
-    },
     "aboutUs": "Über Uns",
     "contact": "Kontakt",
     "impressum": "Impressum",
@@ -68,22 +62,6 @@
     "experts": {
       "title": "IHR SPEZIALIST FÜR NOTFALLLOGISTIK",
       "text": "Seit 1995 sind wir auf On Board Courier-Services spezialisiert und möchten Ihnen unseren professionellen Service auf den nächsten Seiten näher bringen. Mit unserem Service halten Sie Ihre Liefertermine ein und vermeiden größere Schäden durch Produktionsausfälle. Wir verstehen uns als Dienstleister für Speditionen und Industrie. Zu unseren Kunden gehören namhafte Unternehmen aus der Automobil-, Aviation- und Computerindustrie. Unsere Auftraggeber kennen uns als seriösen und zuverlässigen Partner, der absoluten Kundenschutz gewährleistet. Die Zufriedenheit unserer Partner gibt uns Recht und so blicken wir nun auf über 25.000 erfolgreich abgewickelte On Board Courier-Sendungen, die weltweit sicher und zuverlässig ihr Ziel erreicht haben. Profitieren auch Sie von unserer langjährigen Erfahrung und Expertise. Bei Fragen stehen wir Ihnen jederzeit unter unserer 24-Stunden-Hotline zur Verfügung."
-    },
-    "areas": {
-      "title": "Vielseitige Einsatzbereiche unserer Luftfrachtlösungen",
-      "text": "Unsere maßgeschneiderten Luftfrachtdienstleistungen von KAWO finden in einer breiten Palette von Industrien und Einsatzbereichen Anwendung. Egal, ob Automobil, Aviation, Computerindustrie oder andere Branchen – wir bieten Lösungen, die Ihre spezifischen Anforderungen erfüllen.",
-      "auto": {
-        "title": "Automobilindustrie",
-        "subtitle": "Wir unterstützen die Automobilindustrie mit effizienten Luftfrachtlösungen, um Bauteile, Komponenten und Prototypen termingerecht zu liefern. Beschleunigen Sie Ihre Lieferkette mit unseren maßgeschneiderten Transportdienstleistungen."
-      },
-      "comp": {
-        "title": "Computer- und Technologiebranche",
-        "subtitle": "Unsere Expertise in der Luftfahrtindustrie ermöglicht es uns, Flugzeugteile, Ausrüstung und Komponenten zuverlässig zu transportieren. Verlassen Sie sich auf KAWO, um Ihre Fracht sicher in die Luft zu bringen."
-      },
-      "avia": {
-        "title": "Aviation- und Flugzeugbau",
-        "subtitle": "In der Computer- und Technologiebranche bieten wir maßgeschneiderte Luftfrachtlösungen für empfindliche elektronische Geräte, Hardwarekomponenten und mehr. Maximieren Sie die Effizienz Ihrer Lieferkette mit unseren schnellen und sicheren Transportdienstleistungen."
-      }
     },
     "review": {
       "title": "Stimmen unserer zufriedenen Partner",
