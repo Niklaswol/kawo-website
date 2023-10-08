@@ -9,7 +9,9 @@ import VueSplide from '@splidejs/vue-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import i18n from './translations'
 import store from './store'
+import {createHead} from "@vueuse/head";
 
+const head = createHead()
 require('@/assets/main.scss');
 library.add(fas, fab)
 
@@ -19,5 +21,6 @@ app.use(i18n)
 app.use(router)
 app.use(VueSplide);
 app.use(store)
+app.use(head)
 app.component('faIcon', FontAwesomeIcon)
 app.mount('#app')

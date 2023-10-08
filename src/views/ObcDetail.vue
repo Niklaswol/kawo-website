@@ -85,8 +85,24 @@
 </template>
 
 <script>
+import {computed, reactive} from "vue";
+import {useHead} from "@vueuse/head";
+
 export default {
   name: "OBC-Detail",
+  setup(){
+    const siteData = reactive({
+      title: 'Express On Board Courier (OBC) Service von KAWO | Schnelle & Sichere Zustellung Weltweit',
+      description: 'Entdecken Sie den Express On Board Courier (OBC) Service von KAWO für dringende Lieferungen. Ein persönlicher Kurier begleitet Ihre Sendung, gewährleistet schnelle Zustellung ohne Umwege und bietet Echtzeit-Verfolgung. Vertrauen Sie auf unsere Expertise für sicheren und zuverlässigen Versand.'
+    })
+    useHead({
+      title: computed(() => siteData.title),
+      meta: [{
+        name: `description`,
+        content: computed(() => siteData.description),
+      }]
+    })
+  }
 }
 </script>
 

@@ -85,8 +85,24 @@
 </template>
 
 <script>
+import {computed, reactive} from "vue";
+import {useHead} from "@vueuse/head";
+
 export default {
   name: "FlexDetail",
+  setup(){
+    const siteData = reactive({
+      title: 'Flexible Luftfrachtoptionen von KAWO | Maßgeschneiderte Lösungen für Ihre Transportbedürfnisse',
+      description: 'Entdecken Sie die flexiblen Luftfrachtlösungen von KAWO, die perfekt auf Ihre individuellen Anforderungen zugeschnitten sind. Von Teilladungen bis Vollcharter, wir bieten globale Flexibilität und Verlässlichkeit für Ihre Fracht. Profitieren Sie von unserer Anpassungsfähigkeit, globalen Abdeckung und jahrzehntelanger Erfahrung.'
+    })
+    useHead({
+      title: computed(() => siteData.title),
+      meta: [{
+        name: `description`,
+        content: computed(() => siteData.description),
+      }]
+    })
+  }
 }
 </script>
 

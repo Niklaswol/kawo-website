@@ -22,7 +22,7 @@ export default {
     ContactHero,
     FooterMenu,
     NavbarMenu
-  }
+  },
 }
 </script>
 

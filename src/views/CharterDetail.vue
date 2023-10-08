@@ -85,8 +85,24 @@
 </template>
 
 <script>
+import {computed, reactive} from "vue";
+import {useHead} from "@vueuse/head";
+
 export default {
   name: "CharterDetail",
+  setup(){
+    const siteData = reactive({
+      title: 'Exklusive Charterflüge von KAWO | Ultimative Planbarkeit & Sicherheit für Ihre Frachtsendungen"',
+      description: 'Entdecken Sie die exklusiven Charterflüge von KAWO für maßgeschneiderte Logistiklösungen. Ein Flug, der nur für Ihre Fracht reserviert ist, garantiert termingerechte Lieferungen weltweit. Profitieren Sie von ungeteilter Aufmerksamkeit, planbaren Lieferzeiten und maximaler Sicherheit für Ihre Sendungen.'
+    })
+    useHead({
+      title: computed(() => siteData.title),
+      meta: [{
+        name: `description`,
+        content: computed(() => siteData.description),
+      }]
+    })
+  }
 }
 </script>
 

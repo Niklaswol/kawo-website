@@ -123,7 +123,7 @@
     },
     "bulletTwo": {
       "title": "Globale Abdeckung",
-      "text": "Unser Netzwerk ermöglicht es uns, Ihre Fracht weltweit zu befördern, ohne Kompromisse bei der Sicherheit einzugehen und dies nach Ihren Bedürfnissen."
+      "text": "Unser Netzwerk ermöglicht es uns, Ihre Fracht weltweit zu befördern, ohne Kompromisse bei der Sicherheit einzugehen."
     },
     "bulletThree": {
       "title": "Verlässlichkeit",
@@ -150,85 +150,6 @@
       "text": "Ihre Fracht ist während des gesamten Fluges sicher und geschützt, da sie nicht mit anderen Sendungen kombiniert wird."
     },
     "lastText": "Mit den exklusiven Charterflügen von KAWO erhalten Sie die ultimative Kontrolle über Ihre Lieferungen und die Gewissheit, dass Ihre wertvollen Sendungen sicher und pünktlich ankommen."
-  },
-  "operations": {
-    "title": "Vielseitige Anwendungen unserer Luftfrachtlösungen",
-    "text" : "Unsere maßgeschneiderten Luftfrachtdienstleistungen von KAWO finden in einer breiten Palette von Industrien und Einsatzbereichen Anwendung. Unsere flexiblen Lösungen passen sich den individuellen Anforderungen unterschiedlicher Branchen an. Entdecken Sie, wie wir in verschiedenen Industrien effiziente Transportlösungen bieten:",
-    "auto": {
-      "title": "Automobilindustrie",
-      "text": "Die Automobilindustrie erfordert präzise und termingerechte Lieferungen von Bauteilen, Komponenten und Prototypen. Bei KAWO unterstützen wir diese Anforderungen mit effizienten Luftfrachtlösungen, die Ihre Lieferkette beschleunigen und Ihnen helfen, wichtige Meilensteine zu erreichen.",
-      "link": "Erfahren Sie mehr über unsere Lösungen für die Automobilindustrie"
-    },
-    "comp": {
-      "title": "Computer- und Technologiebranche",
-      "text": "In der Computer- und Technologiebranche sind empfindliche elektronische Geräte, Hardwarekomponenten und mehr zuverlässig und sicher zu transportieren. Unsere Expertise in der Luftfrachtindustrie ermöglicht es uns, diese anspruchsvollen Anforderungen zu erfüllen und schnelle Lieferungen sicherzustellen.",
-      "link": "Entdecken Sie unsere Transportlösungen für die Computer- und Technologiebranche"
-    },
-    "avia": {
-      "title": "Aviation- und Flugzeugbau",
-      "text": "Die Luftfahrt- und Flugzeugbauindustrie erfordert spezialisierte Logistiklösungen für Flugzeugteile, Ausrüstung und Komponenten. Mit unserem Know-how und einem globalen Netzwerk bieten wir maßgeschneiderte Transportdienstleistungen, um die Effizienz Ihrer Lieferkette zu maximieren.",
-      "link": "Erfahren Sie, wie wir die Anforderungen der Aviation- und Flugzeugbauindustrie erfüllen"
-    }
-  },
-  "Auto-Detail": {
-    "title": "Automobilindustrie",
-    "subtitle": "Effiziente Luftfrachtlösungen für Bauteile und Komponenten",
-    "firstText": "In der anspruchsvollen Automobilbranche sind pünktliche Lieferungen von Bauteilen, Komponenten und Prototypen von entscheidender Bedeutung. Bei KAWO verstehen wir die einzigartigen Anforderungen der Automobilindustrie und bieten maßgeschneiderte Luftfrachtlösungen, um sicherzustellen, dass Ihre Lieferkette reibungslos funktioniert.",
-    "headlineBold": "Vorteile der Luftfrachtlösungen von KAWO für die Automobilbranche:",
-    "secondText": "Mit unserer Expertise in der Notfalllogistik und unserem Engagement für termingerechte Lieferungen sind wir darauf spezialisiert, Bauteile und Komponenten rechtzeitig zu liefern, um Produktionsausfälle zu vermeiden. Unsere Luftfrachtexperten arbeiten eng mit Ihnen zusammen, um individuelle Transportlösungen zu entwickeln, die genau auf Ihre Bedürfnisse zugeschnitten sind. Ob es sich um eilige Lieferungen von Prototypen handelt oder um den Transport empfindlicher Komponenten",
-    "bulletOne": {
-      "title": "Pünktliche Lieferungen",
-      "text": "Unser Express OBC Service ermöglicht es Ihnen, Bauteile und Komponenten schnell und zuverlässig zu liefern, um Produktionspläne einzuhalten."
-    },
-    "bulletTwo": {
-      "title": "Flexibilität",
-      "text": "Wir bieten flexible Luftfrachtoptionen, um sich den wechselnden Bedürfnissen der Automobilindustrie anzupassen."
-    },
-    "bulletThree": {
-      "title": "Globales Netzwerk",
-      "text": "Unser weltweites Netzwerk ermöglicht es uns, Lieferungen zuverlässig an jeden Ort der Welt zu bringen."
-    },
-    "lastText": "Verlassen Sie sich auf KAWO, um Ihre Lieferkette zu unterstützen und sicherzustellen, dass Ihre Bauteile und Komponenten termingerecht und sicher ankommen. Kontaktieren Sie uns für weitere Informationen über unsere maßgeschneiderten Luftfrachtlösungen für die Automobilbranche."
-  },
-  "Comp-Detail": {
-    "title": "Computer- und Technologiebranche",
-    "subtitle": "Sichere Luftfrachtlösungen für empfindliche elektronische Geräte und Hardwarekomponenten",
-    "firstText": "Die Computer- und Technologiebranche erfordert präzise und sichere Transportlösungen für empfindliche elektronische Geräte, Flugzeugteile und Hardwarekomponenten. Bei KAWO verstehen wir die Bedeutung dieser Lieferungen und bieten maßgeschneiderte Luftfrachtlösungen, um sicherzustellen, dass Ihre Waren sicher und termingerecht ankommen.",
-    "headlineBold": "Vorteile der Luftfrachtlösungen von KAWO für die Computer- und Technologiebranche:",
-    "secondText": "Mit unserer Expertise in der Luftfahrtindustrie bieten wir sichere und zuverlässige Transportdienstleistungen, um Ihre empfindlichen Waren sicher in die Luft zu bringen.\n\nUnsere Luftfrachtexperten arbeiten eng mit Ihnen zusammen, um individuelle Transportlösungen zu entwickeln, die den besonderen Anforderungen der Computer- und Technologiebranche gerecht werden. Egal, ob es sich um den Transport von Flugzeugteilen, Ausrüstung oder Hardwarekomponenten handelt",
-    "bulletOne": {
-      "title": "Sichere Transporte",
-      "text": "Unsere Luftfrachtlösungen gewährleisten den sicheren Transport Ihrer empfindlichen elektronischen Geräte und Hardwarekomponenten."
-    },
-    "bulletTwo": {
-      "title": "Expertise",
-      "text": "Mit unserer Erfahrung in der Luftfahrtindustrie können Sie sich darauf verlassen, dass Ihre Waren professionell transportiert werden."
-    },
-    "bulletThree": {
-      "title": "Globales Netzwerk",
-      "text": "Unser weltweites Netzwerk ermöglicht es uns, Ihre Waren sicher an jeden Ort der Welt zu bringen und dies nach Ihren Anforderungen."
-    },
-    "lastText": "Vertrauen Sie KAWO, um Ihre Waren sicher und zuverlässig zu transportieren und Ihre Lieferkette zu optimieren. Kontaktieren Sie uns für weitere Informationen über unsere maßgeschneiderten Luftfrachtlösungen für die Computer- und Technologiebranche."
-  },
-  "Avia-Detail": {
-    "title": "Aviation- und Flugzeugbau",
-    "subtitle": "Effiziente Transportlösungen für Flugzeugteile und Komponenten",
-    "firstText": "In der Aviation- und Flugzeugbauindustrie sind schnelle und sichere Transportlösungen für Flugzeugteile, Ausrüstung und Komponenten von entscheidender Bedeutung. Bei KAWO verstehen wir die Herausforderungen dieser Industrie und bieten maßgeschneiderte Luftfrachtlösungen, um sicherzustellen, dass Ihre Flugzeugteile sicher und termingerecht ankommen.",
-    "headlineBold": "Vorteile der Luftfrachtlösungen von KAWO für die Aviation- und Flugzeugbauindustrie:",
-    "secondText": "Mit unserer Expertise in der Luftfracht bieten wir schnelle und sichere Transportdienstleistungen, um sicherzustellen, dass Ihre Flugzeugteile reibungslos geliefert werden.\n\nUnsere Luftfrachtexperten arbeiten eng mit Ihnen zusammen, um individuelle Transportlösungen zu entwickeln, die den speziellen Anforderungen der Aviation- und Flugzeugbauindustrie entsprechen. Ob es sich um Flugzeugteile, Ausrüstung oder Komponenten handelt.",
-    "bulletOne": {
-      "title": "Schnelle Lieferungen",
-      "text": "Unsere Luftfrachtlösungen gewährleisten schnelle und termingerechte Lieferungen Ihrer Flugzeugteile und Komponenten."
-    },
-    "bulletTwo": {
-      "title": "Sicherheit",
-      "text": "Mit unserer Expertise in der Luftfahrtindustrie können Sie sich darauf verlassen, dass Ihre Waren sicher und professionell transportiert werden."
-    },
-    "bulletThree": {
-      "title": "Globales Netzwerk",
-      "text": "Unser weltweites Netzwerk ermöglicht es uns, Ihre Flugzeugteile sicher an jeden Ort der Welt zu bringen."
-    },
-    "lastText": "Verlassen Sie sich auf KAWO, um Ihre Flugzeugteile sicher und zuverlässig zu transportieren und Ihre Lieferkette zu optimieren. Kontaktieren Sie uns für weitere Informationen über unsere maßgeschneiderten Luftfrachtlösungen für die Aviation- und Flugzeugbauindustrie."
   },
   "aboutUs": {
     "pres": {

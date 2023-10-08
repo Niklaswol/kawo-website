@@ -5,11 +5,11 @@
       Damaschkestraße 54 <br>
       51377 Leverkusen <br> <br> <br>
 
-      Telefon:  &nbsp;&nbsp;&nbsp; +49 (0)214 - 61 291 <br>
+      Telefon: &nbsp;&nbsp;&nbsp; +49 (0)214 - 61 291 <br>
 
-      Telefax:  &nbsp;&nbsp;&nbsp;  +49 (0)214 - 860 90 44 <br>
+      Telefax: &nbsp;&nbsp;&nbsp; +49 (0)214 - 860 90 44 <br>
 
-      E-Mail:   &nbsp;&nbsp;&nbsp;&nbsp;   service@obc-kawo.de <br><br>
+      E-Mail: &nbsp;&nbsp;&nbsp;&nbsp; service@obc-kawo.de <br><br>
 
       Sitz der Gesellschaft: &nbsp;&nbsp;&nbsp; Amtsgericht Köln - HRB 49 667 <br>
 
@@ -34,3 +34,26 @@
 
   </section>
 </template>
+
+<script>
+import {computed, reactive} from "vue";
+import {useHead} from "@vueuse/head";
+
+export default {
+  name: 'HomePage',
+  components: {},
+  setup() {
+    const siteData = reactive({
+      title: 'KAWO GmbH Kontaktinformationen - Luftfrachtexperten in Leverkusen',
+      description: 'Suchen Sie nach zuverlässigen Luftfrachtlösungen? Kontaktieren Sie KAWO GmbH über Telefon, E-Mail oder besuchen Sie uns in Leverkusen. Geschäftsführer: Karlheinz Lips. AGBs basierend auf ADSp.'
+    })
+    useHead({
+      title: computed(() => siteData.title),
+      meta: [{
+        name: `description`,
+        content: computed(() => siteData.description),
+      }]
+    })
+  }
+}
+</script>

@@ -259,6 +259,8 @@
 import SlideShow from "@/components/SlideShow.vue";
 import QuestionsSection from "@/components/QuestionsSection.vue";
 import ModalElement from "@/components/ModalElement.vue";
+import {computed, reactive} from "vue";
+import {useHead} from "@vueuse/head";
 
 export default {
   name: 'HomePage',
@@ -273,6 +275,19 @@ export default {
       areas: this.$store.getters.getAreas,
     }
   },
+  setup(){
+    const siteData = reactive({
+      title: 'Schnelle & Zuverlässige Luftfrachtlösungen | KAWO GMBH – Ihr Partner für Express OBC, Flexible Luftfracht & Charterflüge',
+      description: 'KAWO GMBH bietet maßgeschneiderte Luftfrachtlösungen mit über 25 Jahren Erfahrung. Entdecken Sie unsere Express On Board Courier (OBC) Services, flexible Luftfrachtoptionen und exklusive Charterflüge. Mit unserer 24-Stunden-Hotline sind wir immer für Sie da. Vertrauen Sie auf unsere weltweite Präsenz und Expertise für zeitkritische Sendungen.'
+    })
+    useHead({
+      title: computed(() => siteData.title),
+      meta: [{
+        name: `description`,
+        content: computed(() => siteData.description),
+      }]
+    })
+  }
 }
 </script>
 

@@ -156,9 +156,25 @@
 
 <script>
 
+import {computed, reactive} from "vue";
+import {useHead} from "@vueuse/head";
+
 export default {
   name: 'ServicesPage',
   components: {},
+  setup(){
+    const siteData = reactive({
+      title: 'KAWO Leistungen: Express OBC, Flexible Luftfracht & Charterflüge | Ihr Partner für Zeitkritische Sendungen',
+      description: 'Entdecken Sie die vielfältigen Luftfrachtlösungen von KAWO. Von Express On Board Courier (OBC) über flexible Luftfracht bis hin zu exklusiven Charterflügen – wir bieten maßgeschneiderte Lösungen für Ihre Transportanforderungen. Mit jahrzehntelanger Erfahrung und einem globalen Netzwerk sind wir Ihr verlässlicher Partner für alle Ihre Luftfrachtbedürfnisse.'
+    })
+    useHead({
+      title: computed(() => siteData.title),
+      meta: [{
+        name: `description`,
+        content: computed(() => siteData.description),
+      }]
+    })
+  }
 }
 </script>
 
