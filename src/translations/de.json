@@ -95,19 +95,33 @@
     "title": "Express On Board Courier (OBC) Service",
     "subtitle": "Schnellste und sicherste Zustellung Ihrer Sendungen weltweit",
     "firstText": "Der Express On Board Courier (OBC) Service von KAWO ermöglicht Ihnen den schnellsten und zuverlässigsten weltweiten Versand Ihrer Sendungen. Dieser exklusive Service bietet eine innovative Lösung für dringende Lieferungen. Ein dedizierter Kurier begleitet persönlich Ihre Fracht an Bord eines Fluges und gewährleistet, dass sie ohne Zwischenstopps direkt zum gewünschten Ziel gelangt.",
-    "headlineBold": "Vorteile des Express OBC Services bei KAWO:",
+    "headlineBold": "Vorteile des Express OBC Services bei KAWO",
     "secondText": "Unsere langjährige Erfahrung und unser umfassendes Netzwerk machen den Express OBC Service von KAWO zu einer optimalen Wahl für Ihre dringenden Versandanforderungen. Hier sind einige der Vorteile, die Sie bei der Nutzung unseres Express OBC Services genießen:",
     "bulletOne": {
       "title": "Schnelle Zustellung ohne Umwege ",
       "text": "Mit einem persönlichen Kurier an Bord wird Ihre Sendung direkt zum Empfänger gebracht, ohne Zwischenstopps oder Verzögerungen."
     },
     "bulletTwo": {
-      "title": "Echtzeit-Verfolgung ",
-      "text": "Verfolgen Sie den Status Ihrer Sendung in Echtzeit und wissen Sie jederzeit, wo sich Ihre Fracht befindet. Dazu werden Sie dauerhaft von uns benachrichtigt"
+      "title": "Dauerhafte Verfolgung",
+      "text": "Verfolgen Sie den Status Ihrer Sendung und wissen Sie jederzeit, wo sich Ihre Fracht befindet. Dazu werden Sie dauerhaft von uns benachrichtigt."
     },
     "bulletThree": {
       "title": "Sicherheit und Schutz ",
       "text": "Ihr OBC Kurier sorgt dafür, dass Ihre Sendung sicher und geschützt ist. Sie haben die Gewissheit, dass Ihre Fracht in den besten Händen ist."
+    },
+    "bulletFour": {
+      "title": "Schnelligkeit",
+      "text": "Unsere Experten analysieren umgehend Ihre Anforderungen und bieten Ihnen die schnellste und wirtschaftlichste Transportmöglichkeit."
+    },
+    "bulletFive": {
+      "title": "Zuverlässigkeit",
+      "text": "Ein dedizierter Kurier begleitet Ihre Fracht persönlich an Bord, um sicherzustellen, dass sie direkt an ihrem Bestimmungsort ankommt."
+    },"bulletSix": {
+      "title": "Globale Reichweite",
+      "text": "Mit speziellen OBC Logistiklösungen für Länder wie China und Indien sind wir global aufgestellt. Egal wohin, wie stehen Ihnen zur Verfügung."
+    },"bulletSeven": {
+      "title": "Zusätzliche Dienstleistungen",
+      "text": "Profitieren Sie von unseren Services wie wirtschaftlichen Routings, AOG und Ersatzteillogistik, Zollabfertigung, europaweiter Abholung und einer 24-Stunden-Hotline."
     },
     "lastText": "Mit dem Express On Board Courier (OBC) Service von KAWO können Sie sicher sein, dass Ihre dringenden Sendungen mit höchster Priorität behandelt werden und rechtzeitig ihr Ziel erreichen."
   },

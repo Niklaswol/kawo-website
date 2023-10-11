@@ -80,6 +80,88 @@
         </div>
       </div>
     </div>
+
+    <div class="columns mt-4">
+      <div class="column is-4">
+        <div class="card about">
+          <div class="icon-container">
+            <faIcon icon="jet-fighter" class="about-icon"></faIcon>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{ $t('OBC-Detail.bulletFour.title') }}</p>
+              </div>
+            </div>
+
+            <div class="content">
+              {{ $t('OBC-Detail.bulletFour.text') }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card about">
+          <div class="icon-container">
+            <faIcon icon="lock" class="about-icon"></faIcon>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{ $t('OBC-Detail.bulletFive.title') }}</p>
+              </div>
+            </div>
+
+            <div class="content">
+              {{ $t('OBC-Detail.bulletFive.text') }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card about">
+          <div class="icon-container">
+            <faIcon icon="globe" class="about-icon"></faIcon>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{ $t('OBC-Detail.bulletSix.title') }}</p>
+              </div>
+            </div>
+
+            <div class="content">
+              {{ $t('OBC-Detail.bulletSix.text') }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns mt-4">
+      <div class="column is-4">
+        <div class="card about">
+          <div class="icon-container">
+            <faIcon icon="plus" class="about-icon"></faIcon>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{ $t('OBC-Detail.bulletSeven.title') }}</p>
+              </div>
+            </div>
+
+            <div class="content">
+              {{ $t('OBC-Detail.bulletSeven.text') }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+      </div>
+      <div class="column is-4">
+      </div>
+    </div>
     <p>{{ $t('OBC-Detail.lastText') }}</p>
   </section>
 </template>
@@ -90,7 +172,7 @@ import {useHead} from "@vueuse/head";
 
 export default {
   name: "OBC-Detail",
-  setup(){
+  setup() {
     const siteData = reactive({
       title: 'Express On Board Courier (OBC) Service von KAWO | Schnelle & Sichere Zustellung Weltweit',
       description: 'Entdecken Sie den Express On Board Courier (OBC) Service von KAWO für dringende Lieferungen. Ein persönlicher Kurier begleitet Ihre Sendung, gewährleistet schnelle Zustellung ohne Umwege und bietet Echtzeit-Verfolgung. Vertrauen Sie auf unsere Expertise für sicheren und zuverlässigen Versand.'
