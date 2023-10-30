@@ -1,7 +1,7 @@
 <template>
   <section class="section has-text-centered">
-    <p class="title is-1">{{ $t('homePage.title') }}</p>
-    <p class="subtitle">{{ $t('homePage.subtitle') }}</p>
+    <p class="title is-1 mb-5">{{ $t('homePage.title') }}</p>
+    <p class="subtitle mt-1">{{ $t('homePage.subtitle') }}</p>
     <div class="columns">
       <div class="column">
         <button class="button is-dark has-icons-left" @click="$refs.modalElement.toggleModal()">
